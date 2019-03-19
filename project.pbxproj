@@ -1,0 +1,2006 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A203A55321F3705C003E02F9 /* SidePanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203A55221F3705C003E02F9 /* SidePanelController.swift */; };
+		A2104AFA21F0AFF7002F9154 /* CommonApiLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2104AF921F0AFF7002F9154 /* CommonApiLayer.swift */; };
+		A2104AFE21F0B2B1002F9154 /* OTPPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2104AFB21F0B2B0002F9154 /* OTPPopupView.swift */; };
+		A2104AFF21F0B2B1002F9154 /* OTPPopupView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2104AFC21F0B2B1002F9154 /* OTPPopupView~iphone.xib */; };
+		A2104B0021F0B2B1002F9154 /* OTPPopupView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2104AFD21F0B2B1002F9154 /* OTPPopupView~ipad.xib */; };
+		A215D08D21F1D511003AC84A /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A215D08C21F1D511003AC84A /* ForgotViewController.swift */; };
+		A21B875821F84B1200B7EF44 /* SampleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B875521F84B1200B7EF44 /* SampleTableCell.swift */; };
+		A21B875921F84B1200B7EF44 /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B875621F84B1200B7EF44 /* HostViewController.swift */; };
+		A21B875A21F84B1200B7EF44 /* Storyboardable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B875721F84B1200B7EF44 /* Storyboardable.swift */; };
+		A21B875C21F84B4700B7EF44 /* SampleMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B875B21F84B4700B7EF44 /* SampleMenuViewController.swift */; };
+		A21B876A21F84FEC00B7EF44 /* PreviewClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B875E21F84FEC00B7EF44 /* PreviewClinicViewController.swift */; };
+		A21B876B21F84FEC00B7EF44 /* ClinicTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B875F21F84FEC00B7EF44 /* ClinicTableViewCell~ipad.xib */; };
+		A21B876C21F84FEC00B7EF44 /* ViewClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B876021F84FEC00B7EF44 /* ViewClinicViewController.swift */; };
+		A21B876D21F84FEC00B7EF44 /* ViewClinicViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876121F84FEC00B7EF44 /* ViewClinicViewController~iphone.xib */; };
+		A21B876E21F84FEC00B7EF44 /* PreviewClinicViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876221F84FEC00B7EF44 /* PreviewClinicViewController~ipad.xib */; };
+		A21B876F21F84FEC00B7EF44 /* PreviewClinicViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876321F84FEC00B7EF44 /* PreviewClinicViewController~iphone.xib */; };
+		A21B877021F84FEC00B7EF44 /* ClinicTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876421F84FEC00B7EF44 /* ClinicTableViewCell~iphone.xib */; };
+		A21B877121F84FEC00B7EF44 /* AddClinicViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876521F84FEC00B7EF44 /* AddClinicViewController~ipad.xib */; };
+		A21B877221F84FEC00B7EF44 /* ViewClinicViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876621F84FEC00B7EF44 /* ViewClinicViewController~ipad.xib */; };
+		A21B877321F84FEC00B7EF44 /* AddClinicViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B876721F84FEC00B7EF44 /* AddClinicViewController~iphone.xib */; };
+		A21B877521F84FEC00B7EF44 /* ClinicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B876921F84FEC00B7EF44 /* ClinicTableViewCell.swift */; };
+		A21B877921F8544E00B7EF44 /* CustomPrintPageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B877721F8544E00B7EF44 /* CustomPrintPageRenderer.swift */; };
+		A21B877A21F8544E00B7EF44 /* InvoiceComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B877821F8544E00B7EF44 /* InvoiceComposer.swift */; };
+		A21B877D21F8878600B7EF44 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B877B21F8878600B7EF44 /* SideMenuTableViewCell.swift */; };
+		A21B877E21F8878600B7EF44 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B877C21F8878600B7EF44 /* SideMenuTableViewCell.xib */; };
+		A21B87A021F8A81D00B7EF44 /* PatientDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B879D21F8A81D00B7EF44 /* PatientDetailsViewController.swift */; };
+		A21B87A121F8A81D00B7EF44 /* PatientDetailsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B879E21F8A81D00B7EF44 /* PatientDetailsViewController~ipad.xib */; };
+		A21B87A221F8A81D00B7EF44 /* PatientDetailsViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B879F21F8A81D00B7EF44 /* PatientDetailsViewController~iphone.xib */; };
+		A21B87A921F8A82A00B7EF44 /* RecordsTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B87A321F8A82900B7EF44 /* RecordsTableViewCell~iphone.xib */; };
+		A21B87AA21F8A82A00B7EF44 /* RecordsTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B87A421F8A82A00B7EF44 /* RecordsTableViewCell~ipad.xib */; };
+		A21B87AB21F8A82A00B7EF44 /* RecordsViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B87A521F8A82A00B7EF44 /* RecordsViewController~iphone.xib */; };
+		A21B87AC21F8A82A00B7EF44 /* RecordsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B87A621F8A82A00B7EF44 /* RecordsTableViewCell.swift */; };
+		A21B87AD21F8A82A00B7EF44 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21B87A721F8A82A00B7EF44 /* RecordsViewController.swift */; };
+		A21B87AE21F8A82A00B7EF44 /* RecordsViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21B87A821F8A82A00B7EF44 /* RecordsViewController~ipad.xib */; };
+		A227F1C522017BF700F59B20 /* AvailabilityWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A227F1C322017BF600F59B20 /* AvailabilityWeekView.swift */; };
+		A227F1C622017BF700F59B20 /* AvailabilityWeekView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A227F1C422017BF700F59B20 /* AvailabilityWeekView.xib */; };
+		A22ADFCD22042F62009CD369 /* libPaymentsSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A22ADFC622042F61009CD369 /* libPaymentsSDK.a */; };
+		A23A007A21FF0EC700080BA5 /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A007721FF0EC700080BA5 /* WalletViewController.swift */; };
+		A23A007B21FF0EC700080BA5 /* WalletTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A007821FF0EC700080BA5 /* WalletTableViewCell.swift */; };
+		A23A007E21FF190400080BA5 /* SubscriptionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23A007D21FF190400080BA5 /* SubscriptionLayer.swift */; };
+		A23DB38D21FD9CCD00EB34FD /* AddTemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DB38821FD9CCD00EB34FD /* AddTemplateViewController.swift */; };
+		A23DB38E21FD9CCD00EB34FD /* AddTemplateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB38921FD9CCD00EB34FD /* AddTemplateViewController.xib */; };
+		A23DB38F21FD9CCD00EB34FD /* AddSignatureViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB38A21FD9CCD00EB34FD /* AddSignatureViewController~ipad.xib */; };
+		A23DB39121FD9CCD00EB34FD /* AddSignatureViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB38C21FD9CCD00EB34FD /* AddSignatureViewController~iphone.xib */; };
+		A23DB39921FD9D3600EB34FD /* FAQTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB39321FD9D3500EB34FD /* FAQTableViewCell~ipad.xib */; };
+		A23DB39A21FD9D3600EB34FD /* ContactAboutViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB39421FD9D3500EB34FD /* ContactAboutViewController~ipad.xib */; };
+		A23DB39B21FD9D3600EB34FD /* ContactAboutViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB39521FD9D3500EB34FD /* ContactAboutViewController~iphone.xib */; };
+		A23DB39C21FD9D3600EB34FD /* FAQTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A23DB39621FD9D3500EB34FD /* FAQTableViewCell~iphone.xib */; };
+		A23DB39D21FD9D3600EB34FD /* ContactAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DB39721FD9D3500EB34FD /* ContactAboutViewController.swift */; };
+		A23DB39E21FD9D3600EB34FD /* FAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23DB39821FD9D3500EB34FD /* FAQTableViewCell.swift */; };
+		A23E256F21E9CF0C00FBB766 /* dropdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E255B21E9CF0B00FBB766 /* dropdown.swift */; };
+		A23E257021E9CF0C00FBB766 /* ValidationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E255C21E9CF0B00FBB766 /* ValidationClass.swift */; };
+		A23E257121E9CF0C00FBB766 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E255D21E9CF0B00FBB766 /* UITextFieldExtension.swift */; };
+		A23E257221E9CF0C00FBB766 /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E255E21E9CF0B00FBB766 /* Themes.swift */; };
+		A23E257321E9CF0C00FBB766 /* UploadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E255F21E9CF0B00FBB766 /* UploadImage.swift */; };
+		A23E257421E9CF0C00FBB766 /* CustomBtnLbl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256121E9CF0B00FBB766 /* CustomBtnLbl.swift */; };
+		A23E257521E9CF0C00FBB766 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256221E9CF0B00FBB766 /* MonthYearPickerView.swift */; };
+		A23E257721E9CF0C00FBB766 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23E256721E9CF0B00FBB766 /* Roboto-Regular.ttf */; };
+		A23E257821E9CF0C00FBB766 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A23E256821E9CF0B00FBB766 /* Roboto-Bold.ttf */; };
+		A23E257921E9CF0C00FBB766 /* MKTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256A21E9CF0B00FBB766 /* MKTextField.swift */; };
+		A23E257A21E9CF0C00FBB766 /* MKLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256B21E9CF0B00FBB766 /* MKLayer.swift */; };
+		A23E257B21E9CF0C00FBB766 /* MKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256C21E9CF0B00FBB766 /* MKColor.swift */; };
+		A23E257C21E9CF0C00FBB766 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256D21E9CF0B00FBB766 /* Colors.swift */; };
+		A23E257D21E9CF0C00FBB766 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E256E21E9CF0B00FBB766 /* Toast.swift */; };
+		A23E258021E9E5AD00FBB766 /* ConfigDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E257F21E9E5AD00FBB766 /* ConfigDoctor.swift */; };
+		A23E258321E9E5F000FBB766 /* UserInstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23E258221E9E5F000FBB766 /* UserInstance.swift */; };
+		A241E29821F5F4460035C129 /* Prescription1AndP2ViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A241E29721F5F4460035C129 /* Prescription1AndP2ViewController~ipad.xib */; };
+		A26012BB22032C6100C4F842 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26012BA22032C6100C4F842 /* ForgotPasswordViewController.swift */; };
+		A26509C621EC94B8008AFBFA /* DoctorRegistrationLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26509C521EC94B8008AFBFA /* DoctorRegistrationLayer.swift */; };
+		A26BB6BC21F2F99700A47440 /* QualCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BB6BA21F2F99700A47440 /* QualCollectionViewCell.swift */; };
+		A26BB6BD21F2F99700A47440 /* QualCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26BB6BB21F2F99700A47440 /* QualCollectionViewCell.xib */; };
+		A26BB6C021F2F9B600A47440 /* EducationSpeicalityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26BB6BE21F2F9B600A47440 /* EducationSpeicalityCell.swift */; };
+		A26BB6C121F2F9B600A47440 /* EducationSpeicalityCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26BB6BF21F2F9B600A47440 /* EducationSpeicalityCell.xib */; };
+		A272BEFF221BFB0200C08321 /* PrescriptionPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A272BEFD221BFB0200C08321 /* PrescriptionPhoneViewController.swift */; };
+		A272BF00221BFB0200C08321 /* PrescriptionPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A272BEFE221BFB0200C08321 /* PrescriptionPhoneViewController.xib */; };
+		A2BACE2F21F08C180070B251 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2521F08C170070B251 /* CloseButton.swift */; };
+		A2BACE3021F08C180070B251 /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2621F08C170070B251 /* TagView.swift */; };
+		A2BACE3121F08C180070B251 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2721F08C170070B251 /* TagListView.swift */; };
+		A2BACE3321F08C180070B251 /* KSToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2A21F08C170070B251 /* KSToken.swift */; };
+		A2BACE3421F08C180070B251 /* KSUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2B21F08C170070B251 /* KSUtils.swift */; };
+		A2BACE3521F08C180070B251 /* KSTokenField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2C21F08C170070B251 /* KSTokenField.swift */; };
+		A2BACE3621F08C180070B251 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2D21F08C170070B251 /* List.swift */; };
+		A2BACE3721F08C180070B251 /* KSTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BACE2E21F08C170070B251 /* KSTokenView.swift */; };
+		A2C3DE5821F0896100E4BDD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE5721F0896100E4BDD4 /* ViewController.swift */; };
+		A2C3DE5B21F0898300E4BDD4 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE5A21F0898300E4BDD4 /* SignUpViewController.swift */; };
+		A2C3DE9F21F08A5000E4BDD4 /* SummaryViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE5C21F08A4700E4BDD4 /* SummaryViewController~iphone.xib */; };
+		A2C3DEA021F08A5000E4BDD4 /* VitalPopUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE5D21F08A4700E4BDD4 /* VitalPopUpView.xib */; };
+		A2C3DEA121F08A5000E4BDD4 /* PatientNameListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE5E21F08A4700E4BDD4 /* PatientNameListTableViewCell.xib */; };
+		A2C3DEA221F08A5000E4BDD4 /* P1LabDiaTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE5F21F08A4700E4BDD4 /* P1LabDiaTableViewCell~ipad.xib */; };
+		A2C3DEA321F08A5100E4BDD4 /* PrescriptionNotesPopUpView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6021F08A4800E4BDD4 /* PrescriptionNotesPopUpView~iphone.xib */; };
+		A2C3DEA421F08A5100E4BDD4 /* SaveTempView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6121F08A4800E4BDD4 /* SaveTempView~ipad.xib */; };
+		A2C3DEA521F08A5100E4BDD4 /* SponsoredBrandPopUPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6221F08A4800E4BDD4 /* SponsoredBrandPopUPView.swift */; };
+		A2C3DEA621F08A5100E4BDD4 /* PrescriptionNotesPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6321F08A4800E4BDD4 /* PrescriptionNotesPopUpView.swift */; };
+		A2C3DEA721F08A5100E4BDD4 /* PrescriptionConfirmationAlertView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6421F08A4800E4BDD4 /* PrescriptionConfirmationAlertView~iphone.xib */; };
+		A2C3DEA821F08A5100E4BDD4 /* DiseasesCollectionViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6521F08A4800E4BDD4 /* DiseasesCollectionViewCell~ipad.xib */; };
+		A2C3DEA921F08A5100E4BDD4 /* PrescribtionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6621F08A4800E4BDD4 /* PrescribtionTableViewCell.swift */; };
+		A2C3DEAA21F08A5100E4BDD4 /* SlotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6721F08A4800E4BDD4 /* SlotCollectionViewCell.swift */; };
+		A2C3DEAB21F08A5100E4BDD4 /* SaveTempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6821F08A4800E4BDD4 /* SaveTempView.swift */; };
+		A2C3DEAC21F08A5100E4BDD4 /* PrescribtionTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6921F08A4900E4BDD4 /* PrescribtionTableViewCell~ipad.xib */; };
+		A2C3DEAD21F08A5100E4BDD4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6A21F08A4900E4BDD4 /* HomeViewController.xib */; };
+		A2C3DEAE21F08A5100E4BDD4 /* SponsoredBrandPopUPView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6B21F08A4900E4BDD4 /* SponsoredBrandPopUPView~ipad.xib */; };
+		A2C3DEAF21F08A5100E4BDD4 /* SponsoredDrugsTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6C21F08A4900E4BDD4 /* SponsoredDrugsTableViewCell~ipad.xib */; };
+		A2C3DEB021F08A5100E4BDD4 /* BookAppointmentView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE6D21F08A4900E4BDD4 /* BookAppointmentView~ipad.xib */; };
+		A2C3DEB121F08A5100E4BDD4 /* ExistingPatientList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE6E21F08A4900E4BDD4 /* ExistingPatientList.swift */; };
+		A2C3DEB321F08A5100E4BDD4 /* ExistingPatientList~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7021F08A4A00E4BDD4 /* ExistingPatientList~iphone.xib */; };
+		A2C3DEB421F08A5100E4BDD4 /* LoadTemplateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7121F08A4A00E4BDD4 /* LoadTemplateView.xib */; };
+		A2C3DEB521F08A5100E4BDD4 /* SwipeTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7221F08A4A00E4BDD4 /* SwipeTableViewCell~iphone.xib */; };
+		A2C3DEB621F08A5100E4BDD4 /* PrescriptionNotesPopUpView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7321F08A4A00E4BDD4 /* PrescriptionNotesPopUpView~ipad.xib */; };
+		A2C3DEB721F08A5100E4BDD4 /* LabAndDiaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7421F08A4A00E4BDD4 /* LabAndDiaCollectionViewCell.xib */; };
+		A2C3DEB821F08A5100E4BDD4 /* PatientNameListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7521F08A4A00E4BDD4 /* PatientNameListTableViewCell.swift */; };
+		A2C3DEB921F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7621F08A4A00E4BDD4 /* PrescriptionVitalNameTableViewCell~iphone.xib */; };
+		A2C3DEBA21F08A5100E4BDD4 /* VitalPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7721F08A4B00E4BDD4 /* VitalPopUpView.swift */; };
+		A2C3DEBB21F08A5100E4BDD4 /* GenericSelectionPopupview.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7821F08A4B00E4BDD4 /* GenericSelectionPopupview.swift */; };
+		A2C3DEBC21F08A5100E4BDD4 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7921F08A4B00E4BDD4 /* SummaryViewController.swift */; };
+		A2C3DEBD21F08A5100E4BDD4 /* NotesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7A21F08A4B00E4BDD4 /* NotesTableViewCell.xib */; };
+		A2C3DEBE21F08A5100E4BDD4 /* ExistingPatientList~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7B21F08A4B00E4BDD4 /* ExistingPatientList~ipad.xib */; };
+		A2C3DEBF21F08A5100E4BDD4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7C21F08A4B00E4BDD4 /* HomeViewController.swift */; };
+		A2C3DEC021F08A5100E4BDD4 /* SwipeTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE7D21F08A4B00E4BDD4 /* SwipeTableViewCell~ipad.xib */; };
+		A2C3DEC121F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE7E21F08A4C00E4BDD4 /* PrescriptionVitalNameTableViewCell.swift */; };
+		A2C3DEC321F08A5100E4BDD4 /* SponsoredDrugsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8021F08A4C00E4BDD4 /* SponsoredDrugsTableViewCell.swift */; };
+		A2C3DEC421F08A5100E4BDD4 /* Mike.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8121F08A4C00E4BDD4 /* Mike.gif */; };
+		A2C3DEC621F08A5100E4BDD4 /* VitalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8321F08A4C00E4BDD4 /* VitalTableViewCell.xib */; };
+		A2C3DEC821F08A5100E4BDD4 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8521F08A4D00E4BDD4 /* SwipeTableViewCell.swift */; };
+		A2C3DEC921F08A5100E4BDD4 /* SummaryViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8621F08A4D00E4BDD4 /* SummaryViewController~ipad.xib */; };
+		A2C3DECA21F08A5100E4BDD4 /* BookAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8721F08A4D00E4BDD4 /* BookAppointmentView.swift */; };
+		A2C3DECB21F08A5100E4BDD4 /* P1LabDiaTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8821F08A4D00E4BDD4 /* P1LabDiaTableViewCell~iphone.xib */; };
+		A2C3DECC21F08A5100E4BDD4 /* LoadTemplateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8921F08A4D00E4BDD4 /* LoadTemplateView.swift */; };
+		A2C3DECD21F08A5100E4BDD4 /* SlotCollectionViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8A21F08A4D00E4BDD4 /* SlotCollectionViewCell~iphone.xib */; };
+		A2C3DECE21F08A5100E4BDD4 /* SponsoredBrandPopUPView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8B21F08A4D00E4BDD4 /* SponsoredBrandPopUPView~iphone.xib */; };
+		A2C3DECF21F08A5100E4BDD4 /* SlotCollectionViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8C21F08A4E00E4BDD4 /* SlotCollectionViewCell~ipad.xib */; };
+		A2C3DED021F08A5100E4BDD4 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8D21F08A4E00E4BDD4 /* NotesTableViewCell.swift */; };
+		A2C3DED121F08A5100E4BDD4 /* P1LabDiaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE8E21F08A4E00E4BDD4 /* P1LabDiaTableViewCell.swift */; };
+		A2C3DED221F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE8F21F08A4E00E4BDD4 /* PrescriptionVitalNameTableViewCell~ipad.xib */; };
+		A2C3DED321F08A5100E4BDD4 /* GenericSelectionPopupview~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9021F08A4E00E4BDD4 /* GenericSelectionPopupview~iphone.xib */; };
+		A2C3DED421F08A5100E4BDD4 /* DiseasesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE9121F08A4E00E4BDD4 /* DiseasesCollectionViewCell.swift */; };
+		A2C3DED521F08A5100E4BDD4 /* PrescriptionConfirmationAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE9221F08A4F00E4BDD4 /* PrescriptionConfirmationAlertView.swift */; };
+		A2C3DED621F08A5100E4BDD4 /* GenericSelectionPopupview~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9321F08A4F00E4BDD4 /* GenericSelectionPopupview~ipad.xib */; };
+		A2C3DED721F08A5100E4BDD4 /* SaveTempView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9421F08A4F00E4BDD4 /* SaveTempView~iphone.xib */; };
+		A2C3DED821F08A5100E4BDD4 /* LoadTemplateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9521F08A4F00E4BDD4 /* LoadTemplateTableViewCell.xib */; };
+		A2C3DED921F08A5100E4BDD4 /* LoadTemplateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE9621F08A4F00E4BDD4 /* LoadTemplateTableViewCell.swift */; };
+		A2C3DEDC21F08A5100E4BDD4 /* DiseasesCollectionViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9921F08A5000E4BDD4 /* DiseasesCollectionViewCell~iphone.xib */; };
+		A2C3DEDD21F08A5100E4BDD4 /* BookAppointmentView~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9A21F08A5000E4BDD4 /* BookAppointmentView~iphone.xib */; };
+		A2C3DEDE21F08A5100E4BDD4 /* PrescribtionTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9B21F08A5000E4BDD4 /* PrescribtionTableViewCell~iphone.xib */; };
+		A2C3DEDF21F08A5100E4BDD4 /* PrescriptionConfirmationAlertView~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9C21F08A5000E4BDD4 /* PrescriptionConfirmationAlertView~ipad.xib */; };
+		A2C3DEE021F08A5100E4BDD4 /* LabAndDiaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C3DE9D21F08A5000E4BDD4 /* LabAndDiaCollectionViewCell.swift */; };
+		A2C3DEE121F08A5100E4BDD4 /* SponsoredDrugsTableViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C3DE9E21F08A5000E4BDD4 /* SponsoredDrugsTableViewCell~iphone.xib */; };
+		A2C7F1AB21F092C700E6F27B /* PrescriptionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1AA21F092C700E6F27B /* PrescriptionLayer.swift */; };
+		A2C7F1BD21F093AB00E6F27B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1AD21F093AB00E6F27B /* Util.swift */; };
+		A2C7F1BE21F093AB00E6F27B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1AE21F093AB00E6F27B /* Utils.swift */; };
+		A2C7F1BF21F093AB00E6F27B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1B121F093AB00E6F27B /* FMDatabaseQueue.m */; };
+		A2C7F1C021F093AB00E6F27B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1B421F093AB00E6F27B /* FMDatabaseAdditions.m */; };
+		A2C7F1C121F093AB00E6F27B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1B521F093AB00E6F27B /* FMDatabase.m */; };
+		A2C7F1C221F093AB00E6F27B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1B921F093AB00E6F27B /* FMDatabasePool.m */; };
+		A2C7F1C321F093AB00E6F27B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1BA21F093AB00E6F27B /* FMResultSet.m */; };
+		A2C7F1C521F093AB00E6F27B /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1BC21F093AB00E6F27B /* ModelManager.swift */; };
+		A2C7F1C721F0964200E6F27B /* PendingReportsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1C621F0964200E6F27B /* PendingReportsLayer.swift */; };
+		A2C7F1CB21F0966E00E6F27B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1C921F0966E00E6F27B /* MBProgressHUD.m */; };
+		A2C7F1D021F0977100E6F27B /* SpeechToTextModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1CE21F0977100E6F27B /* SpeechToTextModule.m */; };
+		A2C7F1D121F0977100E6F27B /* Speex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C7F1CF21F0977100E6F27B /* Speex.framework */; };
+		A2C7F1D621F09C5600E6F27B /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1D421F09C5600E6F27B /* InfoDetails.swift */; };
+		A2C7F1D721F09C5600E6F27B /* AvailabilityRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1D521F09C5600E6F27B /* AvailabilityRecords.swift */; };
+		A2C7F1DC21F09D4F00E6F27B /* RecordsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1D921F09D4F00E6F27B /* RecordsCollectionViewCell.swift */; };
+		A2C7F1DD21F09D4F00E6F27B /* RecordsCollectionViewCell~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C7F1DA21F09D4F00E6F27B /* RecordsCollectionViewCell~ipad.xib */; };
+		A2C7F1DE21F09D4F00E6F27B /* RecordsCollectionViewCell~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C7F1DB21F09D4F00E6F27B /* RecordsCollectionViewCell~iphone.xib */; };
+		A2C7F1E221F09D8C00E6F27B /* RecordsNewViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C7F1DF21F09D8C00E6F27B /* RecordsNewViewController~ipad.xib */; };
+		A2C7F1E321F09D8C00E6F27B /* RecordsNewViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2C7F1E021F09D8C00E6F27B /* RecordsNewViewController~iphone.xib */; };
+		A2C7F1E421F09D8C00E6F27B /* RecordsNewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1E121F09D8C00E6F27B /* RecordsNewViewController.swift */; };
+		A2C7F1E621F0A2D500E6F27B /* DoctorsDetailLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1E521F0A2D500E6F27B /* DoctorsDetailLayer.swift */; };
+		A2C7F1E821F0A37900E6F27B /* ProfileLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1E721F0A37900E6F27B /* ProfileLayer.swift */; };
+		A2C7F1EA21F0A3E800E6F27B /* ClinicAndAssistantLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C7F1E921F0A3E800E6F27B /* ClinicAndAssistantLayer.swift */; };
+		A2D1C46921E9BF2E005F7A8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1C46821E9BF2E005F7A8E /* AppDelegate.swift */; };
+		A2D1C46E21E9BF2E005F7A8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D1C46C21E9BF2E005F7A8E /* Main.storyboard */; };
+		A2D1C47021E9BF33005F7A8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D1C46F21E9BF33005F7A8E /* Assets.xcassets */; };
+		A2D1C47321E9BF33005F7A8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D1C47121E9BF33005F7A8E /* LaunchScreen.storyboard */; };
+		A2D1C47E21E9BF34005F7A8E /* EasyRxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1C47D21E9BF34005F7A8E /* EasyRxTests.swift */; };
+		A2D1C48921E9BF34005F7A8E /* EasyRxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D1C48821E9BF34005F7A8E /* EasyRxUITests.swift */; };
+		A2D9A0EC21F9A89000EDF87F /* FullReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D9A0E921F9A89000EDF87F /* FullReportViewController.swift */; };
+		A2D9A0ED21F9A89000EDF87F /* FullReportViewController~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D9A0EA21F9A89000EDF87F /* FullReportViewController~ipad.xib */; };
+		A2D9A0EE21F9A89000EDF87F /* FullReportViewController~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2D9A0EB21F9A89000EDF87F /* FullReportViewController~iphone.xib */; };
+		B08F3E166F15F493184E624F /* Pods_EasyRx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D56FAEEA9432BBBA401980 /* Pods_EasyRx.framework */; };
+		BA09411A2209978600A03183 /* PaddingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0941192209978600A03183 /* PaddingTextField.swift */; };
+		BAF62BD5220D6DDD00C3CF6E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF62BD4220D6DDD00C3CF6E /* ProfileViewController.swift */; };
+		BAF8E70B220AEB8C0077172A /* SignUpSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8E709220AEB8B0077172A /* SignUpSuccessViewController.swift */; };
+		BAF8E70E220B1A070077172A /* SignUpSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BAF8E70D220B1A060077172A /* SignUpSuccessViewController.xib */; };
+		BAF8E710220B1EBC0077172A /* Prescription1AndP2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8E70F220B1EBB0077172A /* Prescription1AndP2ViewController.swift */; };
+		BAF8E712220B1F1E0077172A /* StatementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8E711220B1F1E0077172A /* StatementViewController.swift */; };
+		BAF8E714220B1F5C0077172A /* AddClinicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8E713220B1F5C0077172A /* AddClinicViewController.swift */; };
+		BAF8E716220B1F880077172A /* AddSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF8E715220B1F880077172A /* AddSignatureViewController.swift */; };
+		CC83CA92B56A0DE3C00614D7 /* Pods_EasyRxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DF5FB9EA14EC103D20299CC /* Pods_EasyRxTests.framework */; };
+		ED5611D8A6C18271D255066C /* Pods_EasyRxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B008DF9C6FCF01EB23A2DC80 /* Pods_EasyRxUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D1C47A21E9BF34005F7A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D1C45D21E9BF2E005F7A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D1C46421E9BF2E005F7A8E;
+			remoteInfo = EasyRx;
+		};
+		A2D1C48521E9BF34005F7A8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2D1C45D21E9BF2E005F7A8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2D1C46421E9BF2E005F7A8E;
+			remoteInfo = EasyRx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04AC86E29B05F5B1C0CDBDF4 /* Pods-EasyRxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRxUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRxUITests/Pods-EasyRxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		21321D7FEEB2C466CFBD9D5B /* Pods-EasyRxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRxTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRxTests/Pods-EasyRxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5031C6C8F4EA97F79C0B1FA1 /* Pods-EasyRx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRx.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx.release.xcconfig"; sourceTree = "<group>"; };
+		5DF5FB9EA14EC103D20299CC /* Pods_EasyRxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3FAC34DCFBD682CE890BF6 /* Pods-EasyRxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRxTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRxTests/Pods-EasyRxTests.release.xcconfig"; sourceTree = "<group>"; };
+		A203A55221F3705C003E02F9 /* SidePanelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidePanelController.swift; sourceTree = "<group>"; };
+		A2104AF921F0AFF7002F9154 /* CommonApiLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonApiLayer.swift; sourceTree = "<group>"; };
+		A2104AFB21F0B2B0002F9154 /* OTPPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPPopupView.swift; sourceTree = "<group>"; };
+		A2104AFC21F0B2B1002F9154 /* OTPPopupView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OTPPopupView~iphone.xib"; sourceTree = "<group>"; };
+		A2104AFD21F0B2B1002F9154 /* OTPPopupView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "OTPPopupView~ipad.xib"; sourceTree = "<group>"; };
+		A215D08C21F1D511003AC84A /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		A21B875521F84B1200B7EF44 /* SampleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTableCell.swift; sourceTree = "<group>"; };
+		A21B875621F84B1200B7EF44 /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		A21B875721F84B1200B7EF44 /* Storyboardable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboardable.swift; sourceTree = "<group>"; };
+		A21B875B21F84B4700B7EF44 /* SampleMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleMenuViewController.swift; sourceTree = "<group>"; };
+		A21B875E21F84FEC00B7EF44 /* PreviewClinicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewClinicViewController.swift; sourceTree = "<group>"; };
+		A21B875F21F84FEC00B7EF44 /* ClinicTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ClinicTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A21B876021F84FEC00B7EF44 /* ViewClinicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewClinicViewController.swift; sourceTree = "<group>"; };
+		A21B876121F84FEC00B7EF44 /* ViewClinicViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewClinicViewController~iphone.xib"; sourceTree = "<group>"; };
+		A21B876221F84FEC00B7EF44 /* PreviewClinicViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PreviewClinicViewController~ipad.xib"; sourceTree = "<group>"; };
+		A21B876321F84FEC00B7EF44 /* PreviewClinicViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PreviewClinicViewController~iphone.xib"; sourceTree = "<group>"; };
+		A21B876421F84FEC00B7EF44 /* ClinicTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ClinicTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A21B876521F84FEC00B7EF44 /* AddClinicViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AddClinicViewController~ipad.xib"; sourceTree = "<group>"; };
+		A21B876621F84FEC00B7EF44 /* ViewClinicViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ViewClinicViewController~ipad.xib"; sourceTree = "<group>"; };
+		A21B876721F84FEC00B7EF44 /* AddClinicViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AddClinicViewController~iphone.xib"; sourceTree = "<group>"; };
+		A21B876921F84FEC00B7EF44 /* ClinicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicTableViewCell.swift; sourceTree = "<group>"; };
+		A21B877721F8544E00B7EF44 /* CustomPrintPageRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPrintPageRenderer.swift; sourceTree = "<group>"; };
+		A21B877821F8544E00B7EF44 /* InvoiceComposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoiceComposer.swift; sourceTree = "<group>"; };
+		A21B877B21F8878600B7EF44 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		A21B877C21F8878600B7EF44 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		A21B879D21F8A81D00B7EF44 /* PatientDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientDetailsViewController.swift; sourceTree = "<group>"; };
+		A21B879E21F8A81D00B7EF44 /* PatientDetailsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PatientDetailsViewController~ipad.xib"; sourceTree = "<group>"; };
+		A21B879F21F8A81D00B7EF44 /* PatientDetailsViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PatientDetailsViewController~iphone.xib"; sourceTree = "<group>"; };
+		A21B87A321F8A82900B7EF44 /* RecordsTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A21B87A421F8A82A00B7EF44 /* RecordsTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A21B87A521F8A82A00B7EF44 /* RecordsViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsViewController~iphone.xib"; sourceTree = "<group>"; };
+		A21B87A621F8A82A00B7EF44 /* RecordsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsTableViewCell.swift; sourceTree = "<group>"; };
+		A21B87A721F8A82A00B7EF44 /* RecordsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		A21B87A821F8A82A00B7EF44 /* RecordsViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsViewController~ipad.xib"; sourceTree = "<group>"; };
+		A227F1C322017BF600F59B20 /* AvailabilityWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityWeekView.swift; sourceTree = "<group>"; };
+		A227F1C422017BF700F59B20 /* AvailabilityWeekView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AvailabilityWeekView.xib; sourceTree = "<group>"; };
+		A22ADFC622042F61009CD369 /* libPaymentsSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPaymentsSDK.a; sourceTree = "<group>"; };
+		A22ADFC822042F61009CD369 /* PGOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGOrder.h; sourceTree = "<group>"; };
+		A22ADFC922042F61009CD369 /* PGMerchantConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMerchantConfiguration.h; sourceTree = "<group>"; };
+		A22ADFCA22042F61009CD369 /* PGServerEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGServerEnvironment.h; sourceTree = "<group>"; };
+		A22ADFCB22042F61009CD369 /* PaymentsSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentsSDK.h; sourceTree = "<group>"; };
+		A22ADFCC22042F61009CD369 /* PGTransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGTransactionViewController.h; sourceTree = "<group>"; };
+		A23A007721FF0EC700080BA5 /* WalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		A23A007821FF0EC700080BA5 /* WalletTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletTableViewCell.swift; sourceTree = "<group>"; };
+		A23A007D21FF190400080BA5 /* SubscriptionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionLayer.swift; sourceTree = "<group>"; };
+		A23DB38821FD9CCD00EB34FD /* AddTemplateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTemplateViewController.swift; sourceTree = "<group>"; };
+		A23DB38921FD9CCD00EB34FD /* AddTemplateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTemplateViewController.xib; sourceTree = "<group>"; };
+		A23DB38A21FD9CCD00EB34FD /* AddSignatureViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AddSignatureViewController~ipad.xib"; sourceTree = "<group>"; };
+		A23DB38C21FD9CCD00EB34FD /* AddSignatureViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "AddSignatureViewController~iphone.xib"; sourceTree = "<group>"; };
+		A23DB39321FD9D3500EB34FD /* FAQTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FAQTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A23DB39421FD9D3500EB34FD /* ContactAboutViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ContactAboutViewController~ipad.xib"; sourceTree = "<group>"; };
+		A23DB39521FD9D3500EB34FD /* ContactAboutViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ContactAboutViewController~iphone.xib"; sourceTree = "<group>"; };
+		A23DB39621FD9D3500EB34FD /* FAQTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FAQTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A23DB39721FD9D3500EB34FD /* ContactAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAboutViewController.swift; sourceTree = "<group>"; };
+		A23DB39821FD9D3500EB34FD /* FAQTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FAQTableViewCell.swift; sourceTree = "<group>"; };
+		A23E255B21E9CF0B00FBB766 /* dropdown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dropdown.swift; sourceTree = "<group>"; };
+		A23E255C21E9CF0B00FBB766 /* ValidationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationClass.swift; sourceTree = "<group>"; };
+		A23E255D21E9CF0B00FBB766 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		A23E255E21E9CF0B00FBB766 /* Themes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		A23E255F21E9CF0B00FBB766 /* UploadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImage.swift; sourceTree = "<group>"; };
+		A23E256121E9CF0B00FBB766 /* CustomBtnLbl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtnLbl.swift; sourceTree = "<group>"; };
+		A23E256221E9CF0B00FBB766 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		A23E256721E9CF0B00FBB766 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		A23E256821E9CF0B00FBB766 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		A23E256A21E9CF0B00FBB766 /* MKTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKTextField.swift; sourceTree = "<group>"; };
+		A23E256B21E9CF0B00FBB766 /* MKLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKLayer.swift; sourceTree = "<group>"; };
+		A23E256C21E9CF0B00FBB766 /* MKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKColor.swift; sourceTree = "<group>"; };
+		A23E256D21E9CF0B00FBB766 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A23E256E21E9CF0B00FBB766 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		A23E257F21E9E5AD00FBB766 /* ConfigDoctor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigDoctor.swift; sourceTree = "<group>"; };
+		A23E258221E9E5F000FBB766 /* UserInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInstance.swift; sourceTree = "<group>"; };
+		A241E29721F5F4460035C129 /* Prescription1AndP2ViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Prescription1AndP2ViewController~ipad.xib"; sourceTree = "<group>"; };
+		A26012BA22032C6100C4F842 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		A26509C521EC94B8008AFBFA /* DoctorRegistrationLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorRegistrationLayer.swift; sourceTree = "<group>"; };
+		A26BB6BA21F2F99700A47440 /* QualCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QualCollectionViewCell.swift; sourceTree = "<group>"; };
+		A26BB6BB21F2F99700A47440 /* QualCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QualCollectionViewCell.xib; sourceTree = "<group>"; };
+		A26BB6BE21F2F9B600A47440 /* EducationSpeicalityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationSpeicalityCell.swift; sourceTree = "<group>"; };
+		A26BB6BF21F2F9B600A47440 /* EducationSpeicalityCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EducationSpeicalityCell.xib; sourceTree = "<group>"; };
+		A272BEFD221BFB0200C08321 /* PrescriptionPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionPhoneViewController.swift; sourceTree = "<group>"; };
+		A272BEFE221BFB0200C08321 /* PrescriptionPhoneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PrescriptionPhoneViewController.xib; sourceTree = "<group>"; };
+		A2BACE2421F08C170070B251 /* TagListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagListView.h; sourceTree = "<group>"; };
+		A2BACE2521F08C170070B251 /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		A2BACE2621F08C170070B251 /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		A2BACE2721F08C170070B251 /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		A2BACE2A21F08C170070B251 /* KSToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSToken.swift; sourceTree = "<group>"; };
+		A2BACE2B21F08C170070B251 /* KSUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSUtils.swift; sourceTree = "<group>"; };
+		A2BACE2C21F08C170070B251 /* KSTokenField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTokenField.swift; sourceTree = "<group>"; };
+		A2BACE2D21F08C170070B251 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		A2BACE2E21F08C170070B251 /* KSTokenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTokenView.swift; sourceTree = "<group>"; };
+		A2C3DE5721F0896100E4BDD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A2C3DE5A21F0898300E4BDD4 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A2C3DE5C21F08A4700E4BDD4 /* SummaryViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SummaryViewController~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE5D21F08A4700E4BDD4 /* VitalPopUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VitalPopUpView.xib; sourceTree = "<group>"; };
+		A2C3DE5E21F08A4700E4BDD4 /* PatientNameListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientNameListTableViewCell.xib; sourceTree = "<group>"; };
+		A2C3DE5F21F08A4700E4BDD4 /* P1LabDiaTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "P1LabDiaTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6021F08A4800E4BDD4 /* PrescriptionNotesPopUpView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionNotesPopUpView~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE6121F08A4800E4BDD4 /* SaveTempView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SaveTempView~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6221F08A4800E4BDD4 /* SponsoredBrandPopUPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsoredBrandPopUPView.swift; sourceTree = "<group>"; };
+		A2C3DE6321F08A4800E4BDD4 /* PrescriptionNotesPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionNotesPopUpView.swift; sourceTree = "<group>"; };
+		A2C3DE6421F08A4800E4BDD4 /* PrescriptionConfirmationAlertView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionConfirmationAlertView~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE6521F08A4800E4BDD4 /* DiseasesCollectionViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DiseasesCollectionViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6621F08A4800E4BDD4 /* PrescribtionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescribtionTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE6721F08A4800E4BDD4 /* SlotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE6821F08A4800E4BDD4 /* SaveTempView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveTempView.swift; sourceTree = "<group>"; };
+		A2C3DE6921F08A4900E4BDD4 /* PrescribtionTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescribtionTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6A21F08A4900E4BDD4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A2C3DE6B21F08A4900E4BDD4 /* SponsoredBrandPopUPView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SponsoredBrandPopUPView~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6C21F08A4900E4BDD4 /* SponsoredDrugsTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SponsoredDrugsTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6D21F08A4900E4BDD4 /* BookAppointmentView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BookAppointmentView~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE6E21F08A4900E4BDD4 /* ExistingPatientList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingPatientList.swift; sourceTree = "<group>"; };
+		A2C3DE7021F08A4A00E4BDD4 /* ExistingPatientList~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ExistingPatientList~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE7121F08A4A00E4BDD4 /* LoadTemplateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadTemplateView.xib; sourceTree = "<group>"; };
+		A2C3DE7221F08A4A00E4BDD4 /* SwipeTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SwipeTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE7321F08A4A00E4BDD4 /* PrescriptionNotesPopUpView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionNotesPopUpView~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE7421F08A4A00E4BDD4 /* LabAndDiaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabAndDiaCollectionViewCell.xib; sourceTree = "<group>"; };
+		A2C3DE7521F08A4A00E4BDD4 /* PatientNameListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatientNameListTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE7621F08A4A00E4BDD4 /* PrescriptionVitalNameTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionVitalNameTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE7721F08A4B00E4BDD4 /* VitalPopUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VitalPopUpView.swift; sourceTree = "<group>"; };
+		A2C3DE7821F08A4B00E4BDD4 /* GenericSelectionPopupview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericSelectionPopupview.swift; sourceTree = "<group>"; };
+		A2C3DE7921F08A4B00E4BDD4 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		A2C3DE7A21F08A4B00E4BDD4 /* NotesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesTableViewCell.xib; sourceTree = "<group>"; };
+		A2C3DE7B21F08A4B00E4BDD4 /* ExistingPatientList~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ExistingPatientList~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE7C21F08A4B00E4BDD4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A2C3DE7D21F08A4B00E4BDD4 /* SwipeTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SwipeTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE7E21F08A4C00E4BDD4 /* PrescriptionVitalNameTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionVitalNameTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE8021F08A4C00E4BDD4 /* SponsoredDrugsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SponsoredDrugsTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE8121F08A4C00E4BDD4 /* Mike.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Mike.gif; sourceTree = "<group>"; };
+		A2C3DE8321F08A4C00E4BDD4 /* VitalTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VitalTableViewCell.xib; sourceTree = "<group>"; };
+		A2C3DE8521F08A4D00E4BDD4 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE8621F08A4D00E4BDD4 /* SummaryViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SummaryViewController~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE8721F08A4D00E4BDD4 /* BookAppointmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAppointmentView.swift; sourceTree = "<group>"; };
+		A2C3DE8821F08A4D00E4BDD4 /* P1LabDiaTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "P1LabDiaTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE8921F08A4D00E4BDD4 /* LoadTemplateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadTemplateView.swift; sourceTree = "<group>"; };
+		A2C3DE8A21F08A4D00E4BDD4 /* SlotCollectionViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SlotCollectionViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE8B21F08A4D00E4BDD4 /* SponsoredBrandPopUPView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SponsoredBrandPopUPView~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE8C21F08A4E00E4BDD4 /* SlotCollectionViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SlotCollectionViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE8D21F08A4E00E4BDD4 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE8E21F08A4E00E4BDD4 /* P1LabDiaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1LabDiaTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE8F21F08A4E00E4BDD4 /* PrescriptionVitalNameTableViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionVitalNameTableViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE9021F08A4E00E4BDD4 /* GenericSelectionPopupview~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GenericSelectionPopupview~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE9121F08A4E00E4BDD4 /* DiseasesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiseasesCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE9221F08A4F00E4BDD4 /* PrescriptionConfirmationAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionConfirmationAlertView.swift; sourceTree = "<group>"; };
+		A2C3DE9321F08A4F00E4BDD4 /* GenericSelectionPopupview~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GenericSelectionPopupview~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE9421F08A4F00E4BDD4 /* SaveTempView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SaveTempView~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE9521F08A4F00E4BDD4 /* LoadTemplateTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadTemplateTableViewCell.xib; sourceTree = "<group>"; };
+		A2C3DE9621F08A4F00E4BDD4 /* LoadTemplateTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadTemplateTableViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE9921F08A5000E4BDD4 /* DiseasesCollectionViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DiseasesCollectionViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE9A21F08A5000E4BDD4 /* BookAppointmentView~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "BookAppointmentView~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE9B21F08A5000E4BDD4 /* PrescribtionTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescribtionTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C3DE9C21F08A5000E4BDD4 /* PrescriptionConfirmationAlertView~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PrescriptionConfirmationAlertView~ipad.xib"; sourceTree = "<group>"; };
+		A2C3DE9D21F08A5000E4BDD4 /* LabAndDiaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabAndDiaCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2C3DE9E21F08A5000E4BDD4 /* SponsoredDrugsTableViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SponsoredDrugsTableViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C7F1AA21F092C700E6F27B /* PrescriptionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrescriptionLayer.swift; sourceTree = "<group>"; };
+		A2C7F1AD21F093AB00E6F27B /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		A2C7F1AE21F093AB00E6F27B /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A2C7F1B021F093AB00E6F27B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		A2C7F1B121F093AB00E6F27B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		A2C7F1B221F093AB00E6F27B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		A2C7F1B321F093AB00E6F27B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		A2C7F1B421F093AB00E6F27B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		A2C7F1B521F093AB00E6F27B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		A2C7F1B621F093AB00E6F27B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		A2C7F1B721F093AB00E6F27B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		A2C7F1B821F093AB00E6F27B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		A2C7F1B921F093AB00E6F27B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		A2C7F1BA21F093AB00E6F27B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		A2C7F1BC21F093AB00E6F27B /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		A2C7F1C621F0964200E6F27B /* PendingReportsLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingReportsLayer.swift; sourceTree = "<group>"; };
+		A2C7F1C921F0966E00E6F27B /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		A2C7F1CA21F0966E00E6F27B /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		A2C7F1CD21F0977100E6F27B /* SpeechToTextModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechToTextModule.h; sourceTree = "<group>"; };
+		A2C7F1CE21F0977100E6F27B /* SpeechToTextModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeechToTextModule.m; sourceTree = "<group>"; };
+		A2C7F1CF21F0977100E6F27B /* Speex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Speex.framework; sourceTree = "<group>"; };
+		A2C7F1D221F097C400E6F27B /* MediTimePatient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediTimePatient-Bridging-Header.h"; sourceTree = "<group>"; };
+		A2C7F1D421F09C5600E6F27B /* InfoDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
+		A2C7F1D521F09C5600E6F27B /* AvailabilityRecords.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailabilityRecords.swift; sourceTree = "<group>"; };
+		A2C7F1D921F09D4F00E6F27B /* RecordsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2C7F1DA21F09D4F00E6F27B /* RecordsCollectionViewCell~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsCollectionViewCell~ipad.xib"; sourceTree = "<group>"; };
+		A2C7F1DB21F09D4F00E6F27B /* RecordsCollectionViewCell~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsCollectionViewCell~iphone.xib"; sourceTree = "<group>"; };
+		A2C7F1DF21F09D8C00E6F27B /* RecordsNewViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsNewViewController~ipad.xib"; sourceTree = "<group>"; };
+		A2C7F1E021F09D8C00E6F27B /* RecordsNewViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "RecordsNewViewController~iphone.xib"; sourceTree = "<group>"; };
+		A2C7F1E121F09D8C00E6F27B /* RecordsNewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordsNewViewController.swift; sourceTree = "<group>"; };
+		A2C7F1E521F0A2D500E6F27B /* DoctorsDetailLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorsDetailLayer.swift; sourceTree = "<group>"; };
+		A2C7F1E721F0A37900E6F27B /* ProfileLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLayer.swift; sourceTree = "<group>"; };
+		A2C7F1E921F0A3E800E6F27B /* ClinicAndAssistantLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClinicAndAssistantLayer.swift; sourceTree = "<group>"; };
+		A2D1C46521E9BF2E005F7A8E /* EasyRx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyRx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D1C46821E9BF2E005F7A8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D1C46D21E9BF2E005F7A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D1C46F21E9BF33005F7A8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D1C47221E9BF33005F7A8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D1C47421E9BF33005F7A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D1C47921E9BF34005F7A8E /* EasyRxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D1C47D21E9BF34005F7A8E /* EasyRxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRxTests.swift; sourceTree = "<group>"; };
+		A2D1C47F21E9BF34005F7A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D1C48421E9BF34005F7A8E /* EasyRxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyRxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D1C48821E9BF34005F7A8E /* EasyRxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyRxUITests.swift; sourceTree = "<group>"; };
+		A2D1C48A21E9BF34005F7A8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2D9A0E921F9A89000EDF87F /* FullReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullReportViewController.swift; sourceTree = "<group>"; };
+		A2D9A0EA21F9A89000EDF87F /* FullReportViewController~ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FullReportViewController~ipad.xib"; sourceTree = "<group>"; };
+		A2D9A0EB21F9A89000EDF87F /* FullReportViewController~iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "FullReportViewController~iphone.xib"; sourceTree = "<group>"; };
+		B008DF9C6FCF01EB23A2DC80 /* Pods_EasyRxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9128591252FF82AA76E3A25 /* Pods-EasyRx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0941192209978600A03183 /* PaddingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingTextField.swift; sourceTree = "<group>"; };
+		BAF62BD4220D6DDD00C3CF6E /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BAF8E709220AEB8B0077172A /* SignUpSuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpSuccessViewController.swift; sourceTree = "<group>"; };
+		BAF8E70D220B1A060077172A /* SignUpSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpSuccessViewController.xib; sourceTree = "<group>"; };
+		BAF8E70F220B1EBB0077172A /* Prescription1AndP2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prescription1AndP2ViewController.swift; sourceTree = "<group>"; };
+		BAF8E711220B1F1E0077172A /* StatementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatementViewController.swift; sourceTree = "<group>"; };
+		BAF8E713220B1F5C0077172A /* AddClinicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddClinicViewController.swift; sourceTree = "<group>"; };
+		BAF8E715220B1F880077172A /* AddSignatureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSignatureViewController.swift; sourceTree = "<group>"; };
+		BF49310AF830A04335287876 /* Pods-EasyRxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyRxUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyRxUITests/Pods-EasyRxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D7D56FAEEA9432BBBA401980 /* Pods_EasyRx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyRx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D1C46221E9BF2E005F7A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22ADFCD22042F62009CD369 /* libPaymentsSDK.a in Frameworks */,
+				A2C7F1D121F0977100E6F27B /* Speex.framework in Frameworks */,
+				B08F3E166F15F493184E624F /* Pods_EasyRx.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C47621E9BF34005F7A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC83CA92B56A0DE3C00614D7 /* Pods_EasyRxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C48121E9BF34005F7A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5611D8A6C18271D255066C /* Pods_EasyRxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2104B0221F0BE4E002F9154 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A26BB6BE21F2F9B600A47440 /* EducationSpeicalityCell.swift */,
+				BAF62BD4220D6DDD00C3CF6E /* ProfileViewController.swift */,
+				A26BB6BF21F2F9B600A47440 /* EducationSpeicalityCell.xib */,
+				A26BB6BA21F2F99700A47440 /* QualCollectionViewCell.swift */,
+				A26BB6BB21F2F99700A47440 /* QualCollectionViewCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A215D08B21F1D511003AC84A /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A26012BA22032C6100C4F842 /* ForgotPasswordViewController.swift */,
+				A215D08C21F1D511003AC84A /* ForgotViewController.swift */,
+			);
+			name = ForgotPassword;
+			path = EasyRx/ForgotPassword;
+			sourceTree = SOURCE_ROOT;
+		};
+		A21B875421F84B1200B7EF44 /* Side Menu New */ = {
+			isa = PBXGroup;
+			children = (
+				A21B877B21F8878600B7EF44 /* SideMenuTableViewCell.swift */,
+				A21B877C21F8878600B7EF44 /* SideMenuTableViewCell.xib */,
+				A21B875B21F84B4700B7EF44 /* SampleMenuViewController.swift */,
+				A21B875521F84B1200B7EF44 /* SampleTableCell.swift */,
+				A21B875621F84B1200B7EF44 /* HostViewController.swift */,
+				A21B875721F84B1200B7EF44 /* Storyboardable.swift */,
+			);
+			path = "Side Menu New";
+			sourceTree = "<group>";
+		};
+		A21B875D21F84FEC00B7EF44 /* MultiClinic */ = {
+			isa = PBXGroup;
+			children = (
+				A21B875E21F84FEC00B7EF44 /* PreviewClinicViewController.swift */,
+				A21B875F21F84FEC00B7EF44 /* ClinicTableViewCell~ipad.xib */,
+				A21B876021F84FEC00B7EF44 /* ViewClinicViewController.swift */,
+				A21B876121F84FEC00B7EF44 /* ViewClinicViewController~iphone.xib */,
+				A21B876221F84FEC00B7EF44 /* PreviewClinicViewController~ipad.xib */,
+				A21B876321F84FEC00B7EF44 /* PreviewClinicViewController~iphone.xib */,
+				A21B876421F84FEC00B7EF44 /* ClinicTableViewCell~iphone.xib */,
+				BAF8E713220B1F5C0077172A /* AddClinicViewController.swift */,
+				A21B876521F84FEC00B7EF44 /* AddClinicViewController~ipad.xib */,
+				A21B876621F84FEC00B7EF44 /* ViewClinicViewController~ipad.xib */,
+				A21B876721F84FEC00B7EF44 /* AddClinicViewController~iphone.xib */,
+				A21B876921F84FEC00B7EF44 /* ClinicTableViewCell.swift */,
+			);
+			path = MultiClinic;
+			sourceTree = "<group>";
+		};
+		A21B877621F8544E00B7EF44 /* Invoicecomposer */ = {
+			isa = PBXGroup;
+			children = (
+				A21B877721F8544E00B7EF44 /* CustomPrintPageRenderer.swift */,
+				A21B877821F8544E00B7EF44 /* InvoiceComposer.swift */,
+			);
+			path = Invoicecomposer;
+			sourceTree = "<group>";
+		};
+		A22ADFC522042F61009CD369 /* PaytmSdk */ = {
+			isa = PBXGroup;
+			children = (
+				A22ADFC622042F61009CD369 /* libPaymentsSDK.a */,
+				A22ADFC722042F61009CD369 /* include */,
+			);
+			path = PaytmSdk;
+			sourceTree = "<group>";
+		};
+		A22ADFC722042F61009CD369 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A22ADFC822042F61009CD369 /* PGOrder.h */,
+				A22ADFC922042F61009CD369 /* PGMerchantConfiguration.h */,
+				A22ADFCA22042F61009CD369 /* PGServerEnvironment.h */,
+				A22ADFCB22042F61009CD369 /* PaymentsSDK.h */,
+				A22ADFCC22042F61009CD369 /* PGTransactionViewController.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A23A007621FF0EC700080BA5 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				BAF8E711220B1F1E0077172A /* StatementViewController.swift */,
+				A23A007721FF0EC700080BA5 /* WalletViewController.swift */,
+				A23A007821FF0EC700080BA5 /* WalletTableViewCell.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		A23DB38721FD9CCD00EB34FD /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				A23DB38821FD9CCD00EB34FD /* AddTemplateViewController.swift */,
+				A23DB38921FD9CCD00EB34FD /* AddTemplateViewController.xib */,
+				BAF8E715220B1F880077172A /* AddSignatureViewController.swift */,
+				A23DB38A21FD9CCD00EB34FD /* AddSignatureViewController~ipad.xib */,
+				A23DB38C21FD9CCD00EB34FD /* AddSignatureViewController~iphone.xib */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		A23DB39221FD9D3500EB34FD /* Contact & About */ = {
+			isa = PBXGroup;
+			children = (
+				A23DB39321FD9D3500EB34FD /* FAQTableViewCell~ipad.xib */,
+				A23DB39421FD9D3500EB34FD /* ContactAboutViewController~ipad.xib */,
+				A23DB39521FD9D3500EB34FD /* ContactAboutViewController~iphone.xib */,
+				A23DB39621FD9D3500EB34FD /* FAQTableViewCell~iphone.xib */,
+				A23DB39721FD9D3500EB34FD /* ContactAboutViewController.swift */,
+				A23DB39821FD9D3500EB34FD /* FAQTableViewCell.swift */,
+			);
+			path = "Contact & About";
+			sourceTree = "<group>";
+		};
+		A23E255A21E9CF0B00FBB766 /* CommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				BA0941192209978600A03183 /* PaddingTextField.swift */,
+				A203A55221F3705C003E02F9 /* SidePanelController.swift */,
+				A23E255B21E9CF0B00FBB766 /* dropdown.swift */,
+				A23E255C21E9CF0B00FBB766 /* ValidationClass.swift */,
+				A23E255D21E9CF0B00FBB766 /* UITextFieldExtension.swift */,
+				A23E255E21E9CF0B00FBB766 /* Themes.swift */,
+				A23E255F21E9CF0B00FBB766 /* UploadImage.swift */,
+				A23E256121E9CF0B00FBB766 /* CustomBtnLbl.swift */,
+				A23E256221E9CF0B00FBB766 /* MonthYearPickerView.swift */,
+				A23E256621E9CF0B00FBB766 /* CustomFont */,
+				A23E256921E9CF0B00FBB766 /* CustomTextField */,
+				A23E256D21E9CF0B00FBB766 /* Colors.swift */,
+				A23E256E21E9CF0B00FBB766 /* Toast.swift */,
+			);
+			path = CommonClass;
+			sourceTree = "<group>";
+		};
+		A23E256621E9CF0B00FBB766 /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				A23E256721E9CF0B00FBB766 /* Roboto-Regular.ttf */,
+				A23E256821E9CF0B00FBB766 /* Roboto-Bold.ttf */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		A23E256921E9CF0B00FBB766 /* CustomTextField */ = {
+			isa = PBXGroup;
+			children = (
+				A23E256A21E9CF0B00FBB766 /* MKTextField.swift */,
+				A23E256B21E9CF0B00FBB766 /* MKLayer.swift */,
+				A23E256C21E9CF0B00FBB766 /* MKColor.swift */,
+			);
+			path = CustomTextField;
+			sourceTree = "<group>";
+		};
+		A23E257E21E9E5AD00FBB766 /* API Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A23A007D21FF190400080BA5 /* SubscriptionLayer.swift */,
+				A2104AF921F0AFF7002F9154 /* CommonApiLayer.swift */,
+				A2C7F1E921F0A3E800E6F27B /* ClinicAndAssistantLayer.swift */,
+				A2C7F1E721F0A37900E6F27B /* ProfileLayer.swift */,
+				A2C7F1E521F0A2D500E6F27B /* DoctorsDetailLayer.swift */,
+				A2C7F1C621F0964200E6F27B /* PendingReportsLayer.swift */,
+				A2C7F1AA21F092C700E6F27B /* PrescriptionLayer.swift */,
+				A26509C521EC94B8008AFBFA /* DoctorRegistrationLayer.swift */,
+				A23E257F21E9E5AD00FBB766 /* ConfigDoctor.swift */,
+			);
+			path = "API Layer";
+			sourceTree = "<group>";
+		};
+		A23E258121E9E5F000FBB766 /* SingletonClass */ = {
+			isa = PBXGroup;
+			children = (
+				A23E258221E9E5F000FBB766 /* UserInstance.swift */,
+			);
+			path = SingletonClass;
+			sourceTree = "<group>";
+		};
+		A2BACE2321F08C170070B251 /* TagListView */ = {
+			isa = PBXGroup;
+			children = (
+				A2BACE2421F08C170070B251 /* TagListView.h */,
+				A2BACE2521F08C170070B251 /* CloseButton.swift */,
+				A2BACE2621F08C170070B251 /* TagView.swift */,
+				A2BACE2721F08C170070B251 /* TagListView.swift */,
+			);
+			path = TagListView;
+			sourceTree = "<group>";
+		};
+		A2BACE2921F08C170070B251 /* TagsFields */ = {
+			isa = PBXGroup;
+			children = (
+				A2BACE2A21F08C170070B251 /* KSToken.swift */,
+				A2BACE2B21F08C170070B251 /* KSUtils.swift */,
+				A2BACE2C21F08C170070B251 /* KSTokenField.swift */,
+				A2BACE2D21F08C170070B251 /* List.swift */,
+				A2BACE2E21F08C170070B251 /* KSTokenView.swift */,
+			);
+			path = TagsFields;
+			sourceTree = "<group>";
+		};
+		A2C3DE4F21F0893E00E4BDD4 /* Prescription */ = {
+			isa = PBXGroup;
+			children = (
+				A227F1C322017BF600F59B20 /* AvailabilityWeekView.swift */,
+				A227F1C422017BF700F59B20 /* AvailabilityWeekView.xib */,
+				A2C3DE8721F08A4D00E4BDD4 /* BookAppointmentView.swift */,
+				A2C3DE6D21F08A4900E4BDD4 /* BookAppointmentView~ipad.xib */,
+				A2C3DE9A21F08A5000E4BDD4 /* BookAppointmentView~iphone.xib */,
+				A2C3DE9121F08A4E00E4BDD4 /* DiseasesCollectionViewCell.swift */,
+				A2C3DE6521F08A4800E4BDD4 /* DiseasesCollectionViewCell~ipad.xib */,
+				A2C3DE9921F08A5000E4BDD4 /* DiseasesCollectionViewCell~iphone.xib */,
+				A2C3DE6E21F08A4900E4BDD4 /* ExistingPatientList.swift */,
+				A2C3DE7B21F08A4B00E4BDD4 /* ExistingPatientList~ipad.xib */,
+				A2C3DE7021F08A4A00E4BDD4 /* ExistingPatientList~iphone.xib */,
+				A2C3DE7821F08A4B00E4BDD4 /* GenericSelectionPopupview.swift */,
+				A2C3DE9321F08A4F00E4BDD4 /* GenericSelectionPopupview~ipad.xib */,
+				A2C3DE9021F08A4E00E4BDD4 /* GenericSelectionPopupview~iphone.xib */,
+				A2C3DE7C21F08A4B00E4BDD4 /* HomeViewController.swift */,
+				A2C3DE6A21F08A4900E4BDD4 /* HomeViewController.xib */,
+				A2C3DE9D21F08A5000E4BDD4 /* LabAndDiaCollectionViewCell.swift */,
+				A2C3DE7421F08A4A00E4BDD4 /* LabAndDiaCollectionViewCell.xib */,
+				A2C3DE9621F08A4F00E4BDD4 /* LoadTemplateTableViewCell.swift */,
+				A2C3DE9521F08A4F00E4BDD4 /* LoadTemplateTableViewCell.xib */,
+				A2C3DE8921F08A4D00E4BDD4 /* LoadTemplateView.swift */,
+				A2C3DE7121F08A4A00E4BDD4 /* LoadTemplateView.xib */,
+				A2C3DE8121F08A4C00E4BDD4 /* Mike.gif */,
+				A2C3DE8D21F08A4E00E4BDD4 /* NotesTableViewCell.swift */,
+				A2C3DE7A21F08A4B00E4BDD4 /* NotesTableViewCell.xib */,
+				A2C3DE8E21F08A4E00E4BDD4 /* P1LabDiaTableViewCell.swift */,
+				A2C3DE5F21F08A4700E4BDD4 /* P1LabDiaTableViewCell~ipad.xib */,
+				A2C3DE8821F08A4D00E4BDD4 /* P1LabDiaTableViewCell~iphone.xib */,
+				A2C3DE7521F08A4A00E4BDD4 /* PatientNameListTableViewCell.swift */,
+				A2C3DE5E21F08A4700E4BDD4 /* PatientNameListTableViewCell.xib */,
+				A2C3DE6621F08A4800E4BDD4 /* PrescribtionTableViewCell.swift */,
+				A2C3DE6921F08A4900E4BDD4 /* PrescribtionTableViewCell~ipad.xib */,
+				A2C3DE9B21F08A5000E4BDD4 /* PrescribtionTableViewCell~iphone.xib */,
+				A241E29721F5F4460035C129 /* Prescription1AndP2ViewController~ipad.xib */,
+				BAF8E70F220B1EBB0077172A /* Prescription1AndP2ViewController.swift */,
+				A2C3DE9221F08A4F00E4BDD4 /* PrescriptionConfirmationAlertView.swift */,
+				A2C3DE9C21F08A5000E4BDD4 /* PrescriptionConfirmationAlertView~ipad.xib */,
+				A2C3DE6421F08A4800E4BDD4 /* PrescriptionConfirmationAlertView~iphone.xib */,
+				A2C3DE6321F08A4800E4BDD4 /* PrescriptionNotesPopUpView.swift */,
+				A2C3DE7321F08A4A00E4BDD4 /* PrescriptionNotesPopUpView~ipad.xib */,
+				A2C3DE6021F08A4800E4BDD4 /* PrescriptionNotesPopUpView~iphone.xib */,
+				A2C3DE7E21F08A4C00E4BDD4 /* PrescriptionVitalNameTableViewCell.swift */,
+				A2C3DE8F21F08A4E00E4BDD4 /* PrescriptionVitalNameTableViewCell~ipad.xib */,
+				A2C3DE7621F08A4A00E4BDD4 /* PrescriptionVitalNameTableViewCell~iphone.xib */,
+				A2C3DE6821F08A4800E4BDD4 /* SaveTempView.swift */,
+				A2C3DE6121F08A4800E4BDD4 /* SaveTempView~ipad.xib */,
+				A2C3DE9421F08A4F00E4BDD4 /* SaveTempView~iphone.xib */,
+				A2C3DE6721F08A4800E4BDD4 /* SlotCollectionViewCell.swift */,
+				A2C3DE8C21F08A4E00E4BDD4 /* SlotCollectionViewCell~ipad.xib */,
+				A2C3DE8A21F08A4D00E4BDD4 /* SlotCollectionViewCell~iphone.xib */,
+				A2C3DE6221F08A4800E4BDD4 /* SponsoredBrandPopUPView.swift */,
+				A2C3DE6B21F08A4900E4BDD4 /* SponsoredBrandPopUPView~ipad.xib */,
+				A2C3DE8B21F08A4D00E4BDD4 /* SponsoredBrandPopUPView~iphone.xib */,
+				A2C3DE8021F08A4C00E4BDD4 /* SponsoredDrugsTableViewCell.swift */,
+				A2C3DE6C21F08A4900E4BDD4 /* SponsoredDrugsTableViewCell~ipad.xib */,
+				A2C3DE9E21F08A5000E4BDD4 /* SponsoredDrugsTableViewCell~iphone.xib */,
+				A2C3DE7921F08A4B00E4BDD4 /* SummaryViewController.swift */,
+				A2C3DE8621F08A4D00E4BDD4 /* SummaryViewController~ipad.xib */,
+				A2C3DE5C21F08A4700E4BDD4 /* SummaryViewController~iphone.xib */,
+				A2C3DE8521F08A4D00E4BDD4 /* SwipeTableViewCell.swift */,
+				A2C3DE7D21F08A4B00E4BDD4 /* SwipeTableViewCell~ipad.xib */,
+				A2C3DE7221F08A4A00E4BDD4 /* SwipeTableViewCell~iphone.xib */,
+				A2C3DE7721F08A4B00E4BDD4 /* VitalPopUpView.swift */,
+				A2C3DE5D21F08A4700E4BDD4 /* VitalPopUpView.xib */,
+				A2C3DE8321F08A4C00E4BDD4 /* VitalTableViewCell.xib */,
+				A272BEFD221BFB0200C08321 /* PrescriptionPhoneViewController.swift */,
+				A272BEFE221BFB0200C08321 /* PrescriptionPhoneViewController.xib */,
+			);
+			path = Prescription;
+			sourceTree = "<group>";
+		};
+		A2C3DE5621F0896100E4BDD4 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A2C3DE5721F0896100E4BDD4 /* ViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A2C3DE5921F0898300E4BDD4 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				BAF8E70D220B1A060077172A /* SignUpSuccessViewController.xib */,
+				BAF8E709220AEB8B0077172A /* SignUpSuccessViewController.swift */,
+				A2104AFB21F0B2B0002F9154 /* OTPPopupView.swift */,
+				A2104AFD21F0B2B1002F9154 /* OTPPopupView~ipad.xib */,
+				A2104AFC21F0B2B1002F9154 /* OTPPopupView~iphone.xib */,
+				A2C3DE5A21F0898300E4BDD4 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A2C7F1AC21F093AB00E6F27B /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1AD21F093AB00E6F27B /* Util.swift */,
+				A2C7F1AE21F093AB00E6F27B /* Utils.swift */,
+				A2C7F1AF21F093AB00E6F27B /* FMDB */,
+				A2C7F1BC21F093AB00E6F27B /* ModelManager.swift */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		A2C7F1AF21F093AB00E6F27B /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1B021F093AB00E6F27B /* FMDatabase.h */,
+				A2C7F1B121F093AB00E6F27B /* FMDatabaseQueue.m */,
+				A2C7F1B221F093AB00E6F27B /* FMResultSet.h */,
+				A2C7F1B321F093AB00E6F27B /* FMDatabasePool.h */,
+				A2C7F1B421F093AB00E6F27B /* FMDatabaseAdditions.m */,
+				A2C7F1B521F093AB00E6F27B /* FMDatabase.m */,
+				A2C7F1B621F093AB00E6F27B /* FMDatabaseQueue.h */,
+				A2C7F1B721F093AB00E6F27B /* FMDB.h */,
+				A2C7F1B821F093AB00E6F27B /* FMDatabaseAdditions.h */,
+				A2C7F1B921F093AB00E6F27B /* FMDatabasePool.m */,
+				A2C7F1BA21F093AB00E6F27B /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		A2C7F1C821F0966E00E6F27B /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1C921F0966E00E6F27B /* MBProgressHUD.m */,
+				A2C7F1CA21F0966E00E6F27B /* MBProgressHUD.h */,
+			);
+			path = MBProgressHud;
+			sourceTree = "<group>";
+		};
+		A2C7F1CC21F0977100E6F27B /* SpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1CD21F0977100E6F27B /* SpeechToTextModule.h */,
+				A2C7F1CE21F0977100E6F27B /* SpeechToTextModule.m */,
+				A2C7F1CF21F0977100E6F27B /* Speex.framework */,
+			);
+			path = SpeechToText;
+			sourceTree = "<group>";
+		};
+		A2C7F1D321F09C5600E6F27B /* StructClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1D421F09C5600E6F27B /* InfoDetails.swift */,
+				A2C7F1D521F09C5600E6F27B /* AvailabilityRecords.swift */,
+			);
+			path = StructClasses;
+			sourceTree = "<group>";
+		};
+		A2C7F1D821F09D4F00E6F27B /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				A2D9A0E921F9A89000EDF87F /* FullReportViewController.swift */,
+				A2D9A0EA21F9A89000EDF87F /* FullReportViewController~ipad.xib */,
+				A2D9A0EB21F9A89000EDF87F /* FullReportViewController~iphone.xib */,
+				A21B87A621F8A82A00B7EF44 /* RecordsTableViewCell.swift */,
+				A21B87A421F8A82A00B7EF44 /* RecordsTableViewCell~ipad.xib */,
+				A21B87A321F8A82900B7EF44 /* RecordsTableViewCell~iphone.xib */,
+				A21B87A721F8A82A00B7EF44 /* RecordsViewController.swift */,
+				A21B87A821F8A82A00B7EF44 /* RecordsViewController~ipad.xib */,
+				A21B87A521F8A82A00B7EF44 /* RecordsViewController~iphone.xib */,
+				A21B879D21F8A81D00B7EF44 /* PatientDetailsViewController.swift */,
+				A21B879E21F8A81D00B7EF44 /* PatientDetailsViewController~ipad.xib */,
+				A21B879F21F8A81D00B7EF44 /* PatientDetailsViewController~iphone.xib */,
+				A2C7F1E121F09D8C00E6F27B /* RecordsNewViewController.swift */,
+				A2C7F1DF21F09D8C00E6F27B /* RecordsNewViewController~ipad.xib */,
+				A2C7F1E021F09D8C00E6F27B /* RecordsNewViewController~iphone.xib */,
+				A2C7F1D921F09D4F00E6F27B /* RecordsCollectionViewCell.swift */,
+				A2C7F1DA21F09D4F00E6F27B /* RecordsCollectionViewCell~ipad.xib */,
+				A2C7F1DB21F09D4F00E6F27B /* RecordsCollectionViewCell~iphone.xib */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		A2D1C45C21E9BF2E005F7A8E = {
+			isa = PBXGroup;
+			children = (
+				A2D1C46721E9BF2E005F7A8E /* EasyRx */,
+				A2D1C47C21E9BF34005F7A8E /* EasyRxTests */,
+				A2D1C48721E9BF34005F7A8E /* EasyRxUITests */,
+				A2D1C46621E9BF2E005F7A8E /* Products */,
+				A840B2564ABE4042C9EB59AE /* Pods */,
+				B36A6A67C49C6E0AD1362F5B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D1C46621E9BF2E005F7A8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1C46521E9BF2E005F7A8E /* EasyRx.app */,
+				A2D1C47921E9BF34005F7A8E /* EasyRxTests.xctest */,
+				A2D1C48421E9BF34005F7A8E /* EasyRxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D1C46721E9BF2E005F7A8E /* EasyRx */ = {
+			isa = PBXGroup;
+			children = (
+				A2C7F1D221F097C400E6F27B /* MediTimePatient-Bridging-Header.h */,
+				A22ADFC522042F61009CD369 /* PaytmSdk */,
+				A21B877621F8544E00B7EF44 /* Invoicecomposer */,
+				A2C7F1D321F09C5600E6F27B /* StructClasses */,
+				A2C7F1CC21F0977100E6F27B /* SpeechToText */,
+				A2C7F1C821F0966E00E6F27B /* MBProgressHud */,
+				A2C7F1AC21F093AB00E6F27B /* DataBase */,
+				A2BACE2321F08C170070B251 /* TagListView */,
+				A2BACE2921F08C170070B251 /* TagsFields */,
+				A23E258121E9E5F000FBB766 /* SingletonClass */,
+				A23E255A21E9CF0B00FBB766 /* CommonClass */,
+				A23E257E21E9E5AD00FBB766 /* API Layer */,
+				A2D1C46821E9BF2E005F7A8E /* AppDelegate.swift */,
+				A23A007621FF0EC700080BA5 /* Wallet */,
+				A2C3DE4F21F0893E00E4BDD4 /* Prescription */,
+				A2C7F1D821F09D4F00E6F27B /* Records */,
+				A2C3DE5621F0896100E4BDD4 /* Login */,
+				A2C3DE5921F0898300E4BDD4 /* SignUp */,
+				A215D08B21F1D511003AC84A /* ForgotPassword */,
+				A2104B0221F0BE4E002F9154 /* Profile */,
+				A21B875D21F84FEC00B7EF44 /* MultiClinic */,
+				A23DB39221FD9D3500EB34FD /* Contact & About */,
+				A23DB38721FD9CCD00EB34FD /* Templates */,
+				A21B875421F84B1200B7EF44 /* Side Menu New */,
+				A2D1C46C21E9BF2E005F7A8E /* Main.storyboard */,
+				A2D1C46F21E9BF33005F7A8E /* Assets.xcassets */,
+				A2D1C47121E9BF33005F7A8E /* LaunchScreen.storyboard */,
+				A2D1C47421E9BF33005F7A8E /* Info.plist */,
+			);
+			path = EasyRx;
+			sourceTree = "<group>";
+		};
+		A2D1C47C21E9BF34005F7A8E /* EasyRxTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1C47D21E9BF34005F7A8E /* EasyRxTests.swift */,
+				A2D1C47F21E9BF34005F7A8E /* Info.plist */,
+			);
+			path = EasyRxTests;
+			sourceTree = "<group>";
+		};
+		A2D1C48721E9BF34005F7A8E /* EasyRxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2D1C48821E9BF34005F7A8E /* EasyRxUITests.swift */,
+				A2D1C48A21E9BF34005F7A8E /* Info.plist */,
+			);
+			path = EasyRxUITests;
+			sourceTree = "<group>";
+		};
+		A840B2564ABE4042C9EB59AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9128591252FF82AA76E3A25 /* Pods-EasyRx.debug.xcconfig */,
+				5031C6C8F4EA97F79C0B1FA1 /* Pods-EasyRx.release.xcconfig */,
+				21321D7FEEB2C466CFBD9D5B /* Pods-EasyRxTests.debug.xcconfig */,
+				8E3FAC34DCFBD682CE890BF6 /* Pods-EasyRxTests.release.xcconfig */,
+				04AC86E29B05F5B1C0CDBDF4 /* Pods-EasyRxUITests.debug.xcconfig */,
+				BF49310AF830A04335287876 /* Pods-EasyRxUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B36A6A67C49C6E0AD1362F5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7D56FAEEA9432BBBA401980 /* Pods_EasyRx.framework */,
+				5DF5FB9EA14EC103D20299CC /* Pods_EasyRxTests.framework */,
+				B008DF9C6FCF01EB23A2DC80 /* Pods_EasyRxUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D1C46421E9BF2E005F7A8E /* EasyRx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D1C48D21E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRx" */;
+			buildPhases = (
+				0F0765D62F078BDB79497506 /* [CP] Check Pods Manifest.lock */,
+				A2D1C46121E9BF2E005F7A8E /* Sources */,
+				A2D1C46221E9BF2E005F7A8E /* Frameworks */,
+				A2D1C46321E9BF2E005F7A8E /* Resources */,
+				E9FE2161B801E42DAD4E7BD9 /* [CP] Embed Pods Frameworks */,
+				CBDB7CE1D4D448658E742F8C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyRx;
+			productName = EasyRx;
+			productReference = A2D1C46521E9BF2E005F7A8E /* EasyRx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2D1C47821E9BF34005F7A8E /* EasyRxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D1C49021E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRxTests" */;
+			buildPhases = (
+				7BC7BB048F5029E41395728F /* [CP] Check Pods Manifest.lock */,
+				A2D1C47521E9BF34005F7A8E /* Sources */,
+				A2D1C47621E9BF34005F7A8E /* Frameworks */,
+				A2D1C47721E9BF34005F7A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D1C47B21E9BF34005F7A8E /* PBXTargetDependency */,
+			);
+			name = EasyRxTests;
+			productName = EasyRxTests;
+			productReference = A2D1C47921E9BF34005F7A8E /* EasyRxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2D1C48321E9BF34005F7A8E /* EasyRxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D1C49321E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRxUITests" */;
+			buildPhases = (
+				10549DCC59BF1F9640096656 /* [CP] Check Pods Manifest.lock */,
+				A2D1C48021E9BF34005F7A8E /* Sources */,
+				A2D1C48121E9BF34005F7A8E /* Frameworks */,
+				A2D1C48221E9BF34005F7A8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D1C48621E9BF34005F7A8E /* PBXTargetDependency */,
+			);
+			name = EasyRxUITests;
+			productName = EasyRxUITests;
+			productReference = A2D1C48421E9BF34005F7A8E /* EasyRxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D1C45D21E9BF2E005F7A8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = kannan;
+				TargetAttributes = {
+					A2D1C46421E9BF2E005F7A8E = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A2D1C47821E9BF34005F7A8E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A2D1C46421E9BF2E005F7A8E;
+					};
+					A2D1C48321E9BF34005F7A8E = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A2D1C46421E9BF2E005F7A8E;
+					};
+				};
+			};
+			buildConfigurationList = A2D1C46021E9BF2E005F7A8E /* Build configuration list for PBXProject "EasyRx" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D1C45C21E9BF2E005F7A8E;
+			productRefGroup = A2D1C46621E9BF2E005F7A8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D1C46421E9BF2E005F7A8E /* EasyRx */,
+				A2D1C47821E9BF34005F7A8E /* EasyRxTests */,
+				A2D1C48321E9BF34005F7A8E /* EasyRxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D1C46321E9BF2E005F7A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C3DEB321F08A5100E4BDD4 /* ExistingPatientList~iphone.xib in Resources */,
+				A2C3DEBD21F08A5100E4BDD4 /* NotesTableViewCell.xib in Resources */,
+				A2C3DEBE21F08A5100E4BDD4 /* ExistingPatientList~ipad.xib in Resources */,
+				A2D1C47321E9BF33005F7A8E /* LaunchScreen.storyboard in Resources */,
+				A2C3DEAF21F08A5100E4BDD4 /* SponsoredDrugsTableViewCell~ipad.xib in Resources */,
+				A2C3DEB421F08A5100E4BDD4 /* LoadTemplateView.xib in Resources */,
+				A2C3DEDE21F08A5100E4BDD4 /* PrescribtionTableViewCell~iphone.xib in Resources */,
+				A2C3DEB721F08A5100E4BDD4 /* LabAndDiaCollectionViewCell.xib in Resources */,
+				A2D1C47021E9BF33005F7A8E /* Assets.xcassets in Resources */,
+				A2D9A0EE21F9A89000EDF87F /* FullReportViewController~iphone.xib in Resources */,
+				A2C3DECE21F08A5100E4BDD4 /* SponsoredBrandPopUPView~iphone.xib in Resources */,
+				A2C3DEB621F08A5100E4BDD4 /* PrescriptionNotesPopUpView~ipad.xib in Resources */,
+				A23DB39A21FD9D3600EB34FD /* ContactAboutViewController~ipad.xib in Resources */,
+				A23DB39B21FD9D3600EB34FD /* ContactAboutViewController~iphone.xib in Resources */,
+				BAF8E70E220B1A070077172A /* SignUpSuccessViewController.xib in Resources */,
+				A2C3DECB21F08A5100E4BDD4 /* P1LabDiaTableViewCell~iphone.xib in Resources */,
+				A2C3DEC621F08A5100E4BDD4 /* VitalTableViewCell.xib in Resources */,
+				A2C3DEB021F08A5100E4BDD4 /* BookAppointmentView~ipad.xib in Resources */,
+				A23E257821E9CF0C00FBB766 /* Roboto-Bold.ttf in Resources */,
+				A2C3DEA421F08A5100E4BDD4 /* SaveTempView~ipad.xib in Resources */,
+				A23DB39921FD9D3600EB34FD /* FAQTableViewCell~ipad.xib in Resources */,
+				A2C3DEDC21F08A5100E4BDD4 /* DiseasesCollectionViewCell~iphone.xib in Resources */,
+				A2C3DEC021F08A5100E4BDD4 /* SwipeTableViewCell~ipad.xib in Resources */,
+				A21B876B21F84FEC00B7EF44 /* ClinicTableViewCell~ipad.xib in Resources */,
+				A2C3DEDD21F08A5100E4BDD4 /* BookAppointmentView~iphone.xib in Resources */,
+				A21B877321F84FEC00B7EF44 /* AddClinicViewController~iphone.xib in Resources */,
+				A2C3DEAE21F08A5100E4BDD4 /* SponsoredBrandPopUPView~ipad.xib in Resources */,
+				A2104B0021F0B2B1002F9154 /* OTPPopupView~ipad.xib in Resources */,
+				A2C3DED321F08A5100E4BDD4 /* GenericSelectionPopupview~iphone.xib in Resources */,
+				A2C3DEC421F08A5100E4BDD4 /* Mike.gif in Resources */,
+				A2C7F1E321F09D8C00E6F27B /* RecordsNewViewController~iphone.xib in Resources */,
+				A2C3DEDF21F08A5100E4BDD4 /* PrescriptionConfirmationAlertView~ipad.xib in Resources */,
+				A2C7F1DE21F09D4F00E6F27B /* RecordsCollectionViewCell~iphone.xib in Resources */,
+				A2C3DEB521F08A5100E4BDD4 /* SwipeTableViewCell~iphone.xib in Resources */,
+				A21B876D21F84FEC00B7EF44 /* ViewClinicViewController~iphone.xib in Resources */,
+				A2C3DED721F08A5100E4BDD4 /* SaveTempView~iphone.xib in Resources */,
+				A241E29821F5F4460035C129 /* Prescription1AndP2ViewController~ipad.xib in Resources */,
+				A21B87A921F8A82A00B7EF44 /* RecordsTableViewCell~iphone.xib in Resources */,
+				A21B87AB21F8A82A00B7EF44 /* RecordsViewController~iphone.xib in Resources */,
+				A23E257721E9CF0C00FBB766 /* Roboto-Regular.ttf in Resources */,
+				A2C3DEB921F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell~iphone.xib in Resources */,
+				A2C3DEA821F08A5100E4BDD4 /* DiseasesCollectionViewCell~ipad.xib in Resources */,
+				A2C3DECF21F08A5100E4BDD4 /* SlotCollectionViewCell~ipad.xib in Resources */,
+				A2C3DEA721F08A5100E4BDD4 /* PrescriptionConfirmationAlertView~iphone.xib in Resources */,
+				A2C3DECD21F08A5100E4BDD4 /* SlotCollectionViewCell~iphone.xib in Resources */,
+				A21B87AA21F8A82A00B7EF44 /* RecordsTableViewCell~ipad.xib in Resources */,
+				A2D1C46E21E9BF2E005F7A8E /* Main.storyboard in Resources */,
+				A21B877E21F8878600B7EF44 /* SideMenuTableViewCell.xib in Resources */,
+				A23DB38E21FD9CCD00EB34FD /* AddTemplateViewController.xib in Resources */,
+				A2C3DEE121F08A5100E4BDD4 /* SponsoredDrugsTableViewCell~iphone.xib in Resources */,
+				A21B87AE21F8A82A00B7EF44 /* RecordsViewController~ipad.xib in Resources */,
+				A26BB6BD21F2F99700A47440 /* QualCollectionViewCell.xib in Resources */,
+				A227F1C622017BF700F59B20 /* AvailabilityWeekView.xib in Resources */,
+				A2104AFF21F0B2B1002F9154 /* OTPPopupView~iphone.xib in Resources */,
+				A21B877021F84FEC00B7EF44 /* ClinicTableViewCell~iphone.xib in Resources */,
+				A272BF00221BFB0200C08321 /* PrescriptionPhoneViewController.xib in Resources */,
+				A2C7F1DD21F09D4F00E6F27B /* RecordsCollectionViewCell~ipad.xib in Resources */,
+				A2C3DED221F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell~ipad.xib in Resources */,
+				A2C3DEC921F08A5100E4BDD4 /* SummaryViewController~ipad.xib in Resources */,
+				A2C3DEA221F08A5000E4BDD4 /* P1LabDiaTableViewCell~ipad.xib in Resources */,
+				A2D9A0ED21F9A89000EDF87F /* FullReportViewController~ipad.xib in Resources */,
+				A2C3DEA321F08A5100E4BDD4 /* PrescriptionNotesPopUpView~iphone.xib in Resources */,
+				A23DB39121FD9CCD00EB34FD /* AddSignatureViewController~iphone.xib in Resources */,
+				A26BB6C121F2F9B600A47440 /* EducationSpeicalityCell.xib in Resources */,
+				A2C7F1E221F09D8C00E6F27B /* RecordsNewViewController~ipad.xib in Resources */,
+				A21B87A221F8A81D00B7EF44 /* PatientDetailsViewController~iphone.xib in Resources */,
+				A21B877121F84FEC00B7EF44 /* AddClinicViewController~ipad.xib in Resources */,
+				A2C3DEA021F08A5000E4BDD4 /* VitalPopUpView.xib in Resources */,
+				A2C3DED621F08A5100E4BDD4 /* GenericSelectionPopupview~ipad.xib in Resources */,
+				A23DB39C21FD9D3600EB34FD /* FAQTableViewCell~iphone.xib in Resources */,
+				A2C3DE9F21F08A5000E4BDD4 /* SummaryViewController~iphone.xib in Resources */,
+				A2C3DEAC21F08A5100E4BDD4 /* PrescribtionTableViewCell~ipad.xib in Resources */,
+				A21B87A121F8A81D00B7EF44 /* PatientDetailsViewController~ipad.xib in Resources */,
+				A21B877221F84FEC00B7EF44 /* ViewClinicViewController~ipad.xib in Resources */,
+				A23DB38F21FD9CCD00EB34FD /* AddSignatureViewController~ipad.xib in Resources */,
+				A21B876F21F84FEC00B7EF44 /* PreviewClinicViewController~iphone.xib in Resources */,
+				A21B876E21F84FEC00B7EF44 /* PreviewClinicViewController~ipad.xib in Resources */,
+				A2C3DED821F08A5100E4BDD4 /* LoadTemplateTableViewCell.xib in Resources */,
+				A2C3DEA121F08A5000E4BDD4 /* PatientNameListTableViewCell.xib in Resources */,
+				A2C3DEAD21F08A5100E4BDD4 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C47721E9BF34005F7A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C48221E9BF34005F7A8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0765D62F078BDB79497506 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRx-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10549DCC59BF1F9640096656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BC7BB048F5029E41395728F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyRxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBDB7CE1D4D448658E742F8C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FE2161B801E42DAD4E7BD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARSLineProgress/ARSLineProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/CRNotifications/CRNotifications.framework",
+				"${BUILT_PRODUCTS_DIR}/DGCollectionViewLeftAlignFlowLayout/DGCollectionViewLeftAlignFlowLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/DGRunkeeperSwitch/DGRunkeeperSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/GSImageViewerController/GSImageViewerController.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/InteractiveSideMenu/InteractiveSideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/JTAppleCalendar/JTAppleCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/KRPullLoader/KRPullLoader.framework",
+				"${BUILT_PRODUCTS_DIR}/LGSideMenuController/LGSideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFExporter/PDFExporter.framework",
+				"${BUILT_PRODUCTS_DIR}/PDFGenerator/PDFGenerator.framework",
+				"${BUILT_PRODUCTS_DIR}/PWSwitch/PWSwitch.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RSKImageCropper/RSKImageCropper.framework",
+				"${BUILT_PRODUCTS_DIR}/SWTableViewCell/SWTableViewCell.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftCharts/SwiftCharts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftSignatureView/SwiftSignatureView.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARSLineProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CRNotifications.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGCollectionViewLeftAlignFlowLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DGRunkeeperSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GSImageViewerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/InteractiveSideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JTAppleCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KRPullLoader.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LGSideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFExporter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PDFGenerator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PWSwitch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSKImageCropper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWTableViewCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCharts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSignatureView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyRx/Pods-EasyRx-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D1C46121E9BF2E005F7A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2C7F1E421F09D8C00E6F27B /* RecordsNewViewController.swift in Sources */,
+				A2C7F1E621F0A2D500E6F27B /* DoctorsDetailLayer.swift in Sources */,
+				A2C3DECC21F08A5100E4BDD4 /* LoadTemplateView.swift in Sources */,
+				A2C3DEAB21F08A5100E4BDD4 /* SaveTempView.swift in Sources */,
+				A2C3DEC121F08A5100E4BDD4 /* PrescriptionVitalNameTableViewCell.swift in Sources */,
+				A2C3DEAA21F08A5100E4BDD4 /* SlotCollectionViewCell.swift in Sources */,
+				A23E257321E9CF0C00FBB766 /* UploadImage.swift in Sources */,
+				A23DB39E21FD9D3600EB34FD /* FAQTableViewCell.swift in Sources */,
+				A2D9A0EC21F9A89000EDF87F /* FullReportViewController.swift in Sources */,
+				A23E257A21E9CF0C00FBB766 /* MKLayer.swift in Sources */,
+				A21B876A21F84FEC00B7EF44 /* PreviewClinicViewController.swift in Sources */,
+				A26012BB22032C6100C4F842 /* ForgotPasswordViewController.swift in Sources */,
+				A2BACE3721F08C180070B251 /* KSTokenView.swift in Sources */,
+				A2C7F1D621F09C5600E6F27B /* InfoDetails.swift in Sources */,
+				A21B877D21F8878600B7EF44 /* SideMenuTableViewCell.swift in Sources */,
+				A2C3DEBB21F08A5100E4BDD4 /* GenericSelectionPopupview.swift in Sources */,
+				A21B877521F84FEC00B7EF44 /* ClinicTableViewCell.swift in Sources */,
+				A2C7F1D721F09C5600E6F27B /* AvailabilityRecords.swift in Sources */,
+				A2C3DED921F08A5100E4BDD4 /* LoadTemplateTableViewCell.swift in Sources */,
+				A2BACE3521F08C180070B251 /* KSTokenField.swift in Sources */,
+				A23E257B21E9CF0C00FBB766 /* MKColor.swift in Sources */,
+				BAF8E70B220AEB8C0077172A /* SignUpSuccessViewController.swift in Sources */,
+				A2C3DEB821F08A5100E4BDD4 /* PatientNameListTableViewCell.swift in Sources */,
+				A26BB6C021F2F9B600A47440 /* EducationSpeicalityCell.swift in Sources */,
+				BAF62BD5220D6DDD00C3CF6E /* ProfileViewController.swift in Sources */,
+				A23E257C21E9CF0C00FBB766 /* Colors.swift in Sources */,
+				A2C7F1CB21F0966E00E6F27B /* MBProgressHUD.m in Sources */,
+				A21B876C21F84FEC00B7EF44 /* ViewClinicViewController.swift in Sources */,
+				A227F1C522017BF700F59B20 /* AvailabilityWeekView.swift in Sources */,
+				A23E257121E9CF0C00FBB766 /* UITextFieldExtension.swift in Sources */,
+				A2BACE3421F08C180070B251 /* KSUtils.swift in Sources */,
+				BAF8E710220B1EBC0077172A /* Prescription1AndP2ViewController.swift in Sources */,
+				A23E257921E9CF0C00FBB766 /* MKTextField.swift in Sources */,
+				A23A007A21FF0EC700080BA5 /* WalletViewController.swift in Sources */,
+				A23A007E21FF190400080BA5 /* SubscriptionLayer.swift in Sources */,
+				A2C3DEBF21F08A5100E4BDD4 /* HomeViewController.swift in Sources */,
+				A21B875A21F84B1200B7EF44 /* Storyboardable.swift in Sources */,
+				A21B87AD21F8A82A00B7EF44 /* RecordsViewController.swift in Sources */,
+				A26BB6BC21F2F99700A47440 /* QualCollectionViewCell.swift in Sources */,
+				A2C7F1BF21F093AB00E6F27B /* FMDatabaseQueue.m in Sources */,
+				A2C3DEA521F08A5100E4BDD4 /* SponsoredBrandPopUPView.swift in Sources */,
+				A2C3DEA621F08A5100E4BDD4 /* PrescriptionNotesPopUpView.swift in Sources */,
+				A2C7F1D021F0977100E6F27B /* SpeechToTextModule.m in Sources */,
+				A2C3DED421F08A5100E4BDD4 /* DiseasesCollectionViewCell.swift in Sources */,
+				A21B87A021F8A81D00B7EF44 /* PatientDetailsViewController.swift in Sources */,
+				A23E257221E9CF0C00FBB766 /* Themes.swift in Sources */,
+				A23E257D21E9CF0C00FBB766 /* Toast.swift in Sources */,
+				A21B875821F84B1200B7EF44 /* SampleTableCell.swift in Sources */,
+				A2C3DED521F08A5100E4BDD4 /* PrescriptionConfirmationAlertView.swift in Sources */,
+				A26509C621EC94B8008AFBFA /* DoctorRegistrationLayer.swift in Sources */,
+				A215D08D21F1D511003AC84A /* ForgotViewController.swift in Sources */,
+				A23E258321E9E5F000FBB766 /* UserInstance.swift in Sources */,
+				A23E257521E9CF0C00FBB766 /* MonthYearPickerView.swift in Sources */,
+				A2BACE3321F08C180070B251 /* KSToken.swift in Sources */,
+				A21B877921F8544E00B7EF44 /* CustomPrintPageRenderer.swift in Sources */,
+				A21B875C21F84B4700B7EF44 /* SampleMenuViewController.swift in Sources */,
+				A21B875921F84B1200B7EF44 /* HostViewController.swift in Sources */,
+				A2C3DED121F08A5100E4BDD4 /* P1LabDiaTableViewCell.swift in Sources */,
+				A23DB39D21FD9D3600EB34FD /* ContactAboutViewController.swift in Sources */,
+				A23E256F21E9CF0C00FBB766 /* dropdown.swift in Sources */,
+				A2104AFA21F0AFF7002F9154 /* CommonApiLayer.swift in Sources */,
+				A2C3DEBC21F08A5100E4BDD4 /* SummaryViewController.swift in Sources */,
+				A2C3DE5B21F0898300E4BDD4 /* SignUpViewController.swift in Sources */,
+				A2C7F1C521F093AB00E6F27B /* ModelManager.swift in Sources */,
+				A203A55321F3705C003E02F9 /* SidePanelController.swift in Sources */,
+				A23A007B21FF0EC700080BA5 /* WalletTableViewCell.swift in Sources */,
+				A23DB38D21FD9CCD00EB34FD /* AddTemplateViewController.swift in Sources */,
+				A23E257021E9CF0C00FBB766 /* ValidationClass.swift in Sources */,
+				A2C3DED021F08A5100E4BDD4 /* NotesTableViewCell.swift in Sources */,
+				A2BACE2F21F08C180070B251 /* CloseButton.swift in Sources */,
+				A2BACE3021F08C180070B251 /* TagView.swift in Sources */,
+				A2C7F1C121F093AB00E6F27B /* FMDatabase.m in Sources */,
+				A2C7F1C721F0964200E6F27B /* PendingReportsLayer.swift in Sources */,
+				A2BACE3121F08C180070B251 /* TagListView.swift in Sources */,
+				A2C7F1BD21F093AB00E6F27B /* Util.swift in Sources */,
+				A21B87AC21F8A82A00B7EF44 /* RecordsTableViewCell.swift in Sources */,
+				A2C3DE5821F0896100E4BDD4 /* ViewController.swift in Sources */,
+				A2C3DECA21F08A5100E4BDD4 /* BookAppointmentView.swift in Sources */,
+				BAF8E716220B1F880077172A /* AddSignatureViewController.swift in Sources */,
+				A2C7F1BE21F093AB00E6F27B /* Utils.swift in Sources */,
+				A2BACE3621F08C180070B251 /* List.swift in Sources */,
+				A2C3DEBA21F08A5100E4BDD4 /* VitalPopUpView.swift in Sources */,
+				A2C3DEE021F08A5100E4BDD4 /* LabAndDiaCollectionViewCell.swift in Sources */,
+				A2C3DEC821F08A5100E4BDD4 /* SwipeTableViewCell.swift in Sources */,
+				A272BEFF221BFB0200C08321 /* PrescriptionPhoneViewController.swift in Sources */,
+				BA09411A2209978600A03183 /* PaddingTextField.swift in Sources */,
+				A2C7F1DC21F09D4F00E6F27B /* RecordsCollectionViewCell.swift in Sources */,
+				A2C3DEA921F08A5100E4BDD4 /* PrescribtionTableViewCell.swift in Sources */,
+				BAF8E714220B1F5C0077172A /* AddClinicViewController.swift in Sources */,
+				A2104AFE21F0B2B1002F9154 /* OTPPopupView.swift in Sources */,
+				A2C3DEB121F08A5100E4BDD4 /* ExistingPatientList.swift in Sources */,
+				A2C7F1E821F0A37900E6F27B /* ProfileLayer.swift in Sources */,
+				A2C3DEC321F08A5100E4BDD4 /* SponsoredDrugsTableViewCell.swift in Sources */,
+				A23E257421E9CF0C00FBB766 /* CustomBtnLbl.swift in Sources */,
+				A2C7F1C321F093AB00E6F27B /* FMResultSet.m in Sources */,
+				A2C7F1C021F093AB00E6F27B /* FMDatabaseAdditions.m in Sources */,
+				A2C7F1C221F093AB00E6F27B /* FMDatabasePool.m in Sources */,
+				BAF8E712220B1F1E0077172A /* StatementViewController.swift in Sources */,
+				A2C7F1EA21F0A3E800E6F27B /* ClinicAndAssistantLayer.swift in Sources */,
+				A23E258021E9E5AD00FBB766 /* ConfigDoctor.swift in Sources */,
+				A21B877A21F8544E00B7EF44 /* InvoiceComposer.swift in Sources */,
+				A2D1C46921E9BF2E005F7A8E /* AppDelegate.swift in Sources */,
+				A2C7F1AB21F092C700E6F27B /* PrescriptionLayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C47521E9BF34005F7A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D1C47E21E9BF34005F7A8E /* EasyRxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D1C48021E9BF34005F7A8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D1C48921E9BF34005F7A8E /* EasyRxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2D1C47B21E9BF34005F7A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D1C46421E9BF2E005F7A8E /* EasyRx */;
+			targetProxy = A2D1C47A21E9BF34005F7A8E /* PBXContainerItemProxy */;
+		};
+		A2D1C48621E9BF34005F7A8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2D1C46421E9BF2E005F7A8E /* EasyRx */;
+			targetProxy = A2D1C48521E9BF34005F7A8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2D1C46C21E9BF2E005F7A8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D1C46D21E9BF2E005F7A8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D1C47121E9BF33005F7A8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D1C47221E9BF33005F7A8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D1C48B21E9BF34005F7A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D1C48C21E9BF34005F7A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D1C48E21E9BF34005F7A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9128591252FF82AA76E3A25 /* Pods-EasyRx.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6BK8A4545;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyRx/SpeechToText",
+				);
+				INFOPLIST_FILE = EasyRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyRx/PaytmSdk",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"ARSLineProgress\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CRNotifications\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"DGCollectionViewLeftAlignFlowLayout\"",
+					"-framework",
+					"\"DGRunkeeperSwitch\"",
+					"-framework",
+					"\"DatePickerDialog\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GSImageViewerController\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JTAppleCalendar\"",
+					"-framework",
+					"\"KRPullLoader\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PDFExporter\"",
+					"-framework",
+					"\"PWSwitch\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"SWTableViewCell\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftCharts\"",
+					"-framework",
+					"\"SwiftSignatureView\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TPKeyboardAvoiding\"",
+					"-framework",
+					"\"TransitionButton\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRx;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kmtmacbook/Downloads/Important Final Codes/EasyRx Final-2-2/EasyRx/MediTimePatient-Bridging-Header.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A2D1C48F21E9BF34005F7A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5031C6C8F4EA97F79C0B1FA1 /* Pods-EasyRx.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J6BK8A4545;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyRx/SpeechToText",
+				);
+				INFOPLIST_FILE = EasyRx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EasyRx/PaytmSdk",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"ARSLineProgress\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireImage\"",
+					"-framework",
+					"\"CRNotifications\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"DGCollectionViewLeftAlignFlowLayout\"",
+					"-framework",
+					"\"DGRunkeeperSwitch\"",
+					"-framework",
+					"\"DatePickerDialog\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"FIRAnalyticsConnector\"",
+					"-framework",
+					"\"FirebaseAnalytics\"",
+					"-framework",
+					"\"FirebaseCore\"",
+					"-framework",
+					"\"FirebaseCoreDiagnostics\"",
+					"-framework",
+					"\"FirebaseInstanceID\"",
+					"-framework",
+					"\"FirebaseMessaging\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"GLKit\"",
+					"-framework",
+					"\"GSImageViewerController\"",
+					"-framework",
+					"\"GoogleAppMeasurement\"",
+					"-framework",
+					"\"GoogleMaps\"",
+					"-framework",
+					"\"GoogleMapsBase\"",
+					"-framework",
+					"\"GoogleMapsCore\"",
+					"-framework",
+					"\"GooglePlaces\"",
+					"-framework",
+					"\"GoogleUtilities\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JTAppleCalendar\"",
+					"-framework",
+					"\"KRPullLoader\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PDFExporter\"",
+					"-framework",
+					"\"PWSwitch\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"RSKImageCropper\"",
+					"-framework",
+					"\"SWTableViewCell\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SwiftCharts\"",
+					"-framework",
+					"\"SwiftSignatureView\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TPKeyboardAvoiding\"",
+					"-framework",
+					"\"TransitionButton\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"nanopb\"",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRx;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/kmtmacbook/Downloads/Important Final Codes/EasyRx Final-2-2/EasyRx/MediTimePatient-Bridging-Header.h";
+				SWIFT_REFLECTION_METADATA_LEVEL = none;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A2D1C49121E9BF34005F7A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21321D7FEEB2C466CFBD9D5B /* Pods-EasyRxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KV9LK7KD3;
+				INFOPLIST_FILE = EasyRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRx.app/EasyRx";
+			};
+			name = Debug;
+		};
+		A2D1C49221E9BF34005F7A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3FAC34DCFBD682CE890BF6 /* Pods-EasyRxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KV9LK7KD3;
+				INFOPLIST_FILE = EasyRxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyRx.app/EasyRx";
+			};
+			name = Release;
+		};
+		A2D1C49421E9BF34005F7A8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04AC86E29B05F5B1C0CDBDF4 /* Pods-EasyRxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KV9LK7KD3;
+				INFOPLIST_FILE = EasyRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyRx;
+			};
+			name = Debug;
+		};
+		A2D1C49521E9BF34005F7A8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF49310AF830A04335287876 /* Pods-EasyRxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2KV9LK7KD3;
+				INFOPLIST_FILE = EasyRxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.medi.EasyRxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyRx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D1C46021E9BF2E005F7A8E /* Build configuration list for PBXProject "EasyRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1C48B21E9BF34005F7A8E /* Debug */,
+				A2D1C48C21E9BF34005F7A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D1C48D21E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1C48E21E9BF34005F7A8E /* Debug */,
+				A2D1C48F21E9BF34005F7A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D1C49021E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1C49121E9BF34005F7A8E /* Debug */,
+				A2D1C49221E9BF34005F7A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D1C49321E9BF34005F7A8E /* Build configuration list for PBXNativeTarget "EasyRxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D1C49421E9BF34005F7A8E /* Debug */,
+				A2D1C49521E9BF34005F7A8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D1C45D21E9BF2E005F7A8E /* Project object */;
+}
